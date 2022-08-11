@@ -1,3 +1,11 @@
 csharp/bin/
 csharp/obj/
 go/Test.exe
+original-grammar/csharp/.vs/
+original-grammar/csharp/bin/
+original-grammar/csharp/obj/
+*.exe
+*.class
+refactored/csharp/.vs/
+refactored/csharp/bin/
+refactored/csharp/obj/

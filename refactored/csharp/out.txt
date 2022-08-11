@@ -1,356 +1,523 @@
-trwdog java -classpath C:/Users/Kenne/Documents/GitHub/antlr4-upstream/tool/target/antlr4-4.10.2-SNAPSHOT-complete.jar\;. Program -file ../p5.txt
 adaptivePredict decision 4 exec LA(1)==EQ<13> line 1:2
 predictATN decision 4 exec LA(1)==EQ<13>, outerContext=[expression parse]
 closure((51,1,[$]))
+closure_() 1
 closure((25,1,[$]))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 2
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(26,1,[$],{9>=prec}?)
 closure((26,1,[$],{9>=prec}?))
+closure_() 3
 closure((28,1,[$]))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 4
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(29,1,[$],{8>=prec}?)
 closure((29,1,[$],{8>=prec}?))
+closure_() 5
 closure((31,1,[$]))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 6
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(32,1,[$],{4>=prec}?)
 closure((32,1,[$],{4>=prec}?))
+closure_() 7
 closure((34,1,[$]))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 8
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(35,1,[$],{3>=prec}?)
 closure((35,1,[$],{3>=prec}?))
+closure_() 9
 closure((37,1,[$]))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 10
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(38,1,[$],{7>=prec}?)
 closure((38,1,[$],{7>=prec}?))
+closure_() 11
 closure((44,1,[$]))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 12
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(45,1,[$],{6>=prec}?)
 closure((45,1,[$],{6>=prec}?))
+closure_() 13
 closure((54,2,[$]))
+closure_() 14
 closure((3,2,[$]))
 FALLING off rule expression
+closure_() 15
 dips into outer ctx: (7,2,[$],up=1)
 closure((7,2,[$],up=1))
+closure_() 16
 dips into outer ctx: (12,2,[$],up=1)
 closure((12,2,[$],up=1))
+closure_() 17
 dips into outer ctx: (24,2,[$],up=1)
 closure((24,2,[$],up=1))
+closure_() 18
 closure((53,2,[$],up=1))
+closure_() 19
 closure((51,2,[$],up=1))
+closure_() 20
 closure((25,2,[$],up=1))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 21
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(26,2,[$],up=1)
 closure((26,2,[$],up=1))
+closure_() 22
 closure((28,2,[$],up=1))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 23
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(29,2,[$],up=1)
 closure((29,2,[$],up=1))
+closure_() 24
 closure((31,2,[$],up=1))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 25
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(32,2,[$],up=1)
 closure((32,2,[$],up=1))
+closure_() 26
 closure((34,2,[$],up=1))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 27
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(35,2,[$],up=1)
 closure((35,2,[$],up=1))
+closure_() 28
 closure((37,2,[$],up=1))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 29
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(38,2,[$],up=1)
 closure((38,2,[$],up=1))
+closure_() 30
 closure((44,2,[$],up=1))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 31
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(45,2,[$],up=1)
 closure((45,2,[$],up=1))
+closure_() 32
 closure((54,2,[$],up=1))
+closure_() 33
 closure((3,2,[$],up=1))
 FALLING off rule expression
+closure_() 34
 dips into outer ctx: (19,2,[$],up=2)
 closure((19,2,[$],up=2))
+closure_() 35
 dips into outer ctx: (52,2,[$],up=2)
 closure((52,2,[$],up=2))
+closure_() 36
 closure((55,2,[$],up=2))
+closure_() 37
 closure((53,2,[$],up=2))
+closure_() 38
 closure((51,2,[$],up=2))
+closure_() 39
 closure((25,2,[$],up=2))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 40
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(26,2,[$],up=2)
 closure((26,2,[$],up=2))
+closure_() 41
 closure((28,2,[$],up=2))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 42
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(29,2,[$],up=2)
 closure((29,2,[$],up=2))
+closure_() 43
 closure((31,2,[$],up=2))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 44
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(32,2,[$],up=2)
 closure((32,2,[$],up=2))
+closure_() 45
 closure((34,2,[$],up=2))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 46
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(35,2,[$],up=2)
 closure((35,2,[$],up=2))
+closure_() 47
 closure((37,2,[$],up=2))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 48
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(38,2,[$],up=2)
 closure((38,2,[$],up=2))
+closure_() 49
 closure((44,2,[$],up=2))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 50
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(45,2,[$],up=2)
 closure((45,2,[$],up=2))
+closure_() 51
 closure((54,2,[$],up=2))
+closure_() 52
 closure((3,2,[$],up=2))
 FALLING off rule expression
+closure_() 53
 dips into outer ctx: (42,2,[$],up=3)
 closure((42,2,[$],up=3))
+closure_() 54
 closure((40,2,[$],up=3))
+closure_() 55
 closure((43,2,[$],up=3))
+closure_() 56
 closure((52,2,[$],up=3))
+closure_() 57
 closure((55,2,[$],up=3))
+closure_() 58
 closure((53,2,[$],up=3))
+closure_() 59
 closure((51,2,[$],up=3))
+closure_() 60
 closure((25,2,[$],up=3))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 61
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(26,2,[$],up=3)
 closure((26,2,[$],up=3))
+closure_() 62
 closure((28,2,[$],up=3))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 63
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(29,2,[$],up=3)
 closure((29,2,[$],up=3))
+closure_() 64
 closure((31,2,[$],up=3))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 65
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(32,2,[$],up=3)
 closure((32,2,[$],up=3))
+closure_() 66
 closure((34,2,[$],up=3))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 67
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(35,2,[$],up=3)
 closure((35,2,[$],up=3))
+closure_() 68
 closure((37,2,[$],up=3))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 69
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(38,2,[$],up=3)
 closure((38,2,[$],up=3))
+closure_() 70
 closure((44,2,[$],up=3))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 71
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(45,2,[$],up=3)
 closure((45,2,[$],up=3))
+closure_() 72
 closure((54,2,[$],up=3))
+closure_() 73
 closure((3,2,[$],up=3))
 FALLING off rule expression
+closure_() 74
 dips into outer ctx: (24,2,[$],up=4)
 closure((24,2,[$],up=4))
+closure_() 75
 closure((53,2,[$],up=4))
+closure_() 76
 closure((51,2,[$],up=4))
+closure_() 77
 closure((25,2,[$],up=4))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 78
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(26,2,[$],up=4)
 closure((26,2,[$],up=4))
+closure_() 79
 closure((28,2,[$],up=4))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 80
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(29,2,[$],up=4)
 closure((29,2,[$],up=4))
+closure_() 81
 closure((31,2,[$],up=4))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 82
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(32,2,[$],up=4)
 closure((32,2,[$],up=4))
+closure_() 83
 closure((34,2,[$],up=4))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 84
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(35,2,[$],up=4)
 closure((35,2,[$],up=4))
+closure_() 85
 closure((37,2,[$],up=4))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 86
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(38,2,[$],up=4)
 closure((38,2,[$],up=4))
+closure_() 87
 closure((44,2,[$],up=4))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 88
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(45,2,[$],up=4)
 closure((45,2,[$],up=4))
+closure_() 89
 closure((54,2,[$],up=4))
+closure_() 90
 closure((3,2,[$],up=4))
 FALLING off rule expression
+closure_() 91
 dips into outer ctx: (52,2,[$],up=5)
 closure((52,2,[$],up=5))
+closure_() 92
 closure((55,2,[$],up=5))
+closure_() 93
 closure((53,2,[$],up=5))
+closure_() 94
 closure((51,2,[$],up=5))
+closure_() 95
 closure((25,2,[$],up=5))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 96
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(26,2,[$],up=5)
 closure((26,2,[$],up=5))
+closure_() 97
 closure((28,2,[$],up=5))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 98
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(29,2,[$],up=5)
 closure((29,2,[$],up=5))
+closure_() 99
 closure((31,2,[$],up=5))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 100
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(32,2,[$],up=5)
 closure((32,2,[$],up=5))
+closure_() 101
 closure((34,2,[$],up=5))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 102
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(35,2,[$],up=5)
 closure((35,2,[$],up=5))
+closure_() 103
 closure((37,2,[$],up=5))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 104
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(38,2,[$],up=5)
 closure((38,2,[$],up=5))
+closure_() 105
 closure((44,2,[$],up=5))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 106
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(45,2,[$],up=5)
 closure((45,2,[$],up=5))
+closure_() 107
 closure((54,2,[$],up=5))
+closure_() 108
 closure((3,2,[$],up=5))
 FALLING off rule expression
+closure_() 109
 dips into outer ctx: (43,2,[$],up=6)
 closure((43,2,[$],up=6))
+closure_() 110
 closure((52,2,[$],up=6))
+closure_() 111
 closure((55,2,[$],up=6))
+closure_() 112
 closure((53,2,[$],up=6))
+closure_() 113
 closure((51,2,[$],up=6))
+closure_() 114
 closure((25,2,[$],up=6))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 115
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(26,2,[$],up=6)
 closure((26,2,[$],up=6))
+closure_() 116
 closure((28,2,[$],up=6))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 117
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(29,2,[$],up=6)
 closure((29,2,[$],up=6))
+closure_() 118
 closure((31,2,[$],up=6))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 119
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(32,2,[$],up=6)
 closure((32,2,[$],up=6))
+closure_() 120
 closure((34,2,[$],up=6))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 121
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(35,2,[$],up=6)
 closure((35,2,[$],up=6))
+closure_() 122
 closure((37,2,[$],up=6))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 123
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(38,2,[$],up=6)
 closure((38,2,[$],up=6))
+closure_() 124
 closure((44,2,[$],up=6))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 125
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(45,2,[$],up=6)
 closure((45,2,[$],up=6))
+closure_() 126
 closure((54,2,[$],up=6))
+closure_() 127
 closure((3,2,[$],up=6))
 FALLING off rule expression
+closure_() 128
 dips into outer ctx: (49,2,[$],up=7)
 closure((49,2,[$],up=7))
+closure_() 129
 closure((47,2,[$],up=7))
+closure_() 130
 closure((50,2,[$],up=7))
+closure_() 131
 closure((52,2,[$],up=7))
+closure_() 132
 closure((55,2,[$],up=7))
+closure_() 133
 closure((53,2,[$],up=7))
+closure_() 134
 closure((51,2,[$],up=7))
+closure_() 135
 closure((25,2,[$],up=7))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 136
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(26,2,[$],up=7)
 closure((26,2,[$],up=7))
+closure_() 137
 closure((28,2,[$],up=7))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 138
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(29,2,[$],up=7)
 closure((29,2,[$],up=7))
+closure_() 139
 closure((31,2,[$],up=7))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 140
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(32,2,[$],up=7)
 closure((32,2,[$],up=7))
+closure_() 141
 closure((34,2,[$],up=7))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 142
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(35,2,[$],up=7)
 closure((35,2,[$],up=7))
+closure_() 143
 closure((37,2,[$],up=7))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 144
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(38,2,[$],up=7)
 closure((38,2,[$],up=7))
+closure_() 145
 closure((44,2,[$],up=7))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 146
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(45,2,[$],up=7)
 closure((45,2,[$],up=7))
+closure_() 147
 closure((54,2,[$],up=7))
+closure_() 148
 closure((3,2,[$],up=7))
 FALLING off rule expression
+closure_() 149
 dips into outer ctx: (50,2,[$],up=8)
 closure((50,2,[$],up=8))
+closure_() 150
 closure((52,2,[$],up=8))
+closure_() 151
 closure((55,2,[$],up=8))
+closure_() 152
 closure((53,2,[$],up=8))
+closure_() 153
 closure((51,2,[$],up=8))
+closure_() 154
 closure((25,2,[$],up=8))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 155
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(26,2,[$],up=8)
 closure((26,2,[$],up=8))
+closure_() 156
 closure((28,2,[$],up=8))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 157
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(29,2,[$],up=8)
 closure((29,2,[$],up=8))
+closure_() 158
 closure((31,2,[$],up=8))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 159
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(32,2,[$],up=8)
 closure((32,2,[$],up=8))
+closure_() 160
 closure((34,2,[$],up=8))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 161
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(35,2,[$],up=8)
 closure((35,2,[$],up=8))
+closure_() 162
 closure((37,2,[$],up=8))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 163
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(38,2,[$],up=8)
 closure((38,2,[$],up=8))
+closure_() 164
 closure((44,2,[$],up=8))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 165
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(45,2,[$],up=8)
 closure((45,2,[$],up=8))
+closure_() 166
 closure((54,2,[$],up=8))
+closure_() 167
 closure((3,2,[$],up=8))
 FALLING off rule expression
+closure_() 168
 adding new DFA state: 0:[(26,1,[$]), (29,1,[$]), (32,1,[$]), (35,1,[$]), (38,1,[$]), (45,1,[$]), (7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext
 execATN decision 4 exec LA(1)==EQ<13> line 1:2
 s0 = 0:[(26,1,[$]), (29,1,[$]), (32,1,[$]), (35,1,[$]), (38,1,[$]), (45,1,[$]), (7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext
@@ -373,34 +540,56 @@ testing EQ<13> at (19,2,[$],up=2)
 testing EQ<13> at (40,2,[$],up=3)
 testing EQ<13> at (47,2,[$],up=7)
 closure((27,1,[$]))
+closure_() 169
 CALL rule expression, ctx=$
 closure((2,1,[52 $]))
+closure_() 170
 closure((23,1,[52 $]))
+closure_() 171
 closure((9,1,[52 $]))
+closure_() 172
 ACTION edge 1:-1
 closure((10,1,[52 $]))
+closure_() 173
 closure((14,1,[52 $]))
+closure_() 174
 closure((16,1,[52 $]))
+closure_() 175
 closure((21,1,[52 $]))
+closure_() 176
 CALL rule boolean, ctx=52 $
 closure((4,1,[24 52 $]))
+closure_() 177
 closure((56,1,[24 52 $]))
+closure_() 178
 closure((22,1,[52 $]))
+closure_() 179
 closure((27,2,[$],up=8))
+closure_() 180
 CALL rule expression, ctx=$
 closure((2,2,[52 $],up=8))
+closure_() 181
 closure((23,2,[52 $],up=8))
+closure_() 182
 closure((9,2,[52 $],up=8))
+closure_() 183
 ACTION edge 1:-1
 closure((10,2,[52 $],up=8))
+closure_() 184
 closure((14,2,[52 $],up=8))
+closure_() 185
 closure((16,2,[52 $],up=8))
+closure_() 186
 closure((21,2,[52 $],up=8))
+closure_() 187
 CALL rule boolean, ctx=52 $
 closure((4,2,[24 52 $],up=8))
+closure_() 188
 closure((56,2,[24 52 $],up=8))
+closure_() 189
 closure((22,2,[52 $],up=8))
-SLL altSubSets=[{1, 2}, {1, 2}, {1, 2}, {1, 2}, {1, 2}], configs=[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],dipsIntoOuterContext, predict=0, allSubsetsConflict=true, conflictingAlts={1, 2}
+closure_() 190
+SLL altSubSets=[{1, 2}, {1, 2}, {1, 2}, {1, 2}, {1, 2}], configs=[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],dipsIntoOuterContext, predict=0, allSubsetsConflict=True, conflictingAlts={1, 2}
 EDGE 0:[(26,1,[$]), (29,1,[$]), (32,1,[$]), (35,1,[$]), (38,1,[$]), (45,1,[$]), (7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext -> -1:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext=>1 upon EQ<13>
 adding new DFA state: 1:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext=>1
 DFA=
@@ -408,39 +597,54 @@ s0-EQ->:s1^=>1
 
 ctx sensitive state [6] in 1:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext=>1
 closure((51,1,[7 $]))
+closure_() 191
 closure((25,1,[7 $]))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 192
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(26,1,[7 $])
 closure((26,1,[7 $]))
+closure_() 193
 closure((28,1,[7 $]))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 194
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(29,1,[7 $])
 closure((29,1,[7 $]))
+closure_() 195
 closure((31,1,[7 $]))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 196
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(32,1,[7 $])
 closure((32,1,[7 $]))
+closure_() 197
 closure((34,1,[7 $]))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 198
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(35,1,[7 $])
 closure((35,1,[7 $]))
+closure_() 199
 closure((37,1,[7 $]))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 200
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(38,1,[7 $])
 closure((38,1,[7 $]))
+closure_() 201
 closure((44,1,[7 $]))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 202
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(45,1,[7 $])
 closure((45,1,[7 $]))
+closure_() 203
 closure((54,2,[7 $]))
+closure_() 204
 closure((3,2,[7 $]))
 closure((7,2,[$]))
+closure_() 205
 reportAttemptingFullContext decision=4:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext, input=EQ
 execATNWithFullContext [(26,1,[7 $]), (29,1,[7 $]), (32,1,[7 $]), (35,1,[7 $]), (38,1,[7 $]), (45,1,[7 $]), (7,2,[$])]
 in computeReachSet, starting closure: [(26,1,[7 $]), (29,1,[7 $]), (32,1,[7 $]), (35,1,[7 $]), (38,1,[7 $]), (45,1,[7 $]), (7,2,[$])]
@@ -451,415 +655,595 @@ testing EQ<13> at (35,1,[7 $])
 testing EQ<13> at (38,1,[7 $])
 testing EQ<13> at (45,1,[7 $])
 testing EQ<13> at (7,2,[$])
-LL altSubSets=[{1}], predict=1, resolvesToJustOneViableAlt=1
-reportContextSensitivity decision=4:[(27,1,[7 $])],uniqueAlt=1, input=EQ
+LL altSubSets=System.Collections.Generic.Dictionary`2+ValueCollection[Antlr4.Runtime.Atn.ATNConfig,Antlr4.Runtime.Sharpen.BitSet], predict=1, ResolvesToJustOneViableAlt=1
+ReportContextSensitivity decision=4:[(27,1,[7 $])],uniqueAlt=1, input=EQ
 DFA after predictATN: s0-EQ->:s1^=>1
 
 adaptivePredict decision 3 exec LA(1)==EQ<13> line 1:2
 predictATN decision 3 exec LA(1)==EQ<13>, outerContext=[expression parse]
 closure((25,1,[$]))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 206
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(26,1,[$],{9>=prec}?)
 closure((26,1,[$],{9>=prec}?))
+closure_() 207
 closure((28,2,[$]))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 208
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(29,2,[$],{8>=prec}?)
 closure((29,2,[$],{8>=prec}?))
+closure_() 209
 closure((31,3,[$]))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 210
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(32,3,[$],{4>=prec}?)
 closure((32,3,[$],{4>=prec}?))
+closure_() 211
 closure((34,4,[$]))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 212
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(35,4,[$],{3>=prec}?)
 closure((35,4,[$],{3>=prec}?))
+closure_() 213
 closure((37,5,[$]))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 214
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(38,5,[$],{7>=prec}?)
 closure((38,5,[$],{7>=prec}?))
+closure_() 215
 closure((44,6,[$]))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 216
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(45,6,[$],{6>=prec}?)
 closure((45,6,[$],{6>=prec}?))
-adding new DFA state: 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=true
+closure_() 217
+adding new DFA state: 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=True
 execATN decision 3 exec LA(1)==EQ<13> line 1:2
-s0 = 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=true
-in computeReachSet, starting closure: [(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=true
+s0 = 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=True
+in computeReachSet, starting closure: [(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=True
 testing EQ<13> at (26,1,[$],{9>=prec}?)
 testing EQ<13> at (29,2,[$],{8>=prec}?)
 testing EQ<13> at (32,3,[$],{4>=prec}?)
 testing EQ<13> at (35,4,[$],{3>=prec}?)
 testing EQ<13> at (38,5,[$],{7>=prec}?)
 testing EQ<13> at (45,6,[$],{6>=prec}?)
-SLL altSubSets=[{1}], configs=[(27,1,[$],{9>=prec}?)],hasSemanticContext=true, predict=1, allSubsetsConflict=false, conflictingAlts={1}
+SLL altSubSets=[{1}], configs=[(27,1,[$],{9>=prec}?)],hasSemanticContext=True, predict=1, allSubsetsConflict=False, conflictingAlts={1}
 getPredsForAmbigAlts result [null, {9>=prec}?, {-1:-1}?, {-1:-1}?, {-1:-1}?, {-1:-1}?, {-1:-1}?]
-EDGE 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=true -> -1:[(27,1,[$],{9>=prec}?)],hasSemanticContext=true,uniqueAlt=1=>[({9>=prec}?, 1)] upon EQ<13>
-adding new DFA state: 1:[(27,1,[$],{9>=prec}?)],hasSemanticContext=true,uniqueAlt=1=>[({9>=prec}?, 1)]
+EDGE 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=True -> -1:[(27,1,[$],{9>=prec}?)],hasSemanticContext=True,uniqueAlt=1=>[({9>=prec}?, 1)] upon EQ<13>
+adding new DFA state: 1:[(27,1,[$],{9>=prec}?)],hasSemanticContext=True,uniqueAlt=1=>[({9>=prec}?, 1)]
 DFA=
 s0-EQ->:s1=>[({9>=prec}?, 1)]
 
-eval pred ({9>=prec}?, 1)=true
+eval pred ({9>=prec}?, 1)=True
 PREDICT 1
 DFA after predictATN: s0-EQ->:s1=>[({9>=prec}?, 1)]
 
 adaptivePredict decision 4 exec LA(1)==OR<2> line 1:7
 predictATN decision 4 exec LA(1)==OR<2>, outerContext=[expression expression parse]
 closure((51,1,[$]))
+closure_() 218
 closure((25,1,[$]))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 219
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,1,[$],{9>=prec}?)
 closure((26,1,[$],{9>=prec}?))
+closure_() 220
 closure((28,1,[$]))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 221
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,1,[$],{8>=prec}?)
 closure((29,1,[$],{8>=prec}?))
+closure_() 222
 closure((31,1,[$]))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 223
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,1,[$],{4>=prec}?)
 closure((32,1,[$],{4>=prec}?))
+closure_() 224
 closure((34,1,[$]))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 225
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,1,[$],{3>=prec}?)
 closure((35,1,[$],{3>=prec}?))
+closure_() 226
 closure((37,1,[$]))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 227
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,1,[$],{7>=prec}?)
 closure((38,1,[$],{7>=prec}?))
+closure_() 228
 closure((44,1,[$]))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 229
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,1,[$],{6>=prec}?)
 closure((45,1,[$],{6>=prec}?))
+closure_() 230
 closure((54,2,[$]))
+closure_() 231
 closure((3,2,[$]))
 FALLING off rule expression
+closure_() 232
 dips into outer ctx: (7,2,[$],up=1)
 closure((7,2,[$],up=1))
+closure_() 233
 dips into outer ctx: (12,2,[$],up=1)
 closure((12,2,[$],up=1))
+closure_() 234
 dips into outer ctx: (24,2,[$],up=1)
 closure((24,2,[$],up=1))
+closure_() 235
 closure((53,2,[$],up=1))
+closure_() 236
 closure((51,2,[$],up=1))
+closure_() 237
 closure((25,2,[$],up=1))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 238
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[$],up=1)
 closure((26,2,[$],up=1))
+closure_() 239
 closure((28,2,[$],up=1))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 240
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[$],up=1)
 closure((29,2,[$],up=1))
+closure_() 241
 closure((31,2,[$],up=1))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 242
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[$],up=1)
 closure((32,2,[$],up=1))
+closure_() 243
 closure((34,2,[$],up=1))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 244
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[$],up=1)
 closure((35,2,[$],up=1))
+closure_() 245
 closure((37,2,[$],up=1))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 246
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[$],up=1)
 closure((38,2,[$],up=1))
+closure_() 247
 closure((44,2,[$],up=1))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 248
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[$],up=1)
 closure((45,2,[$],up=1))
+closure_() 249
 closure((54,2,[$],up=1))
+closure_() 250
 closure((3,2,[$],up=1))
 FALLING off rule expression
+closure_() 251
 dips into outer ctx: (19,2,[$],up=2)
 closure((19,2,[$],up=2))
+closure_() 252
 dips into outer ctx: (52,2,[$],up=2)
 closure((52,2,[$],up=2))
+closure_() 253
 closure((55,2,[$],up=2))
+closure_() 254
 closure((53,2,[$],up=2))
+closure_() 255
 closure((51,2,[$],up=2))
+closure_() 256
 closure((25,2,[$],up=2))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 257
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[$],up=2)
 closure((26,2,[$],up=2))
+closure_() 258
 closure((28,2,[$],up=2))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 259
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[$],up=2)
 closure((29,2,[$],up=2))
+closure_() 260
 closure((31,2,[$],up=2))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 261
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[$],up=2)
 closure((32,2,[$],up=2))
+closure_() 262
 closure((34,2,[$],up=2))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 263
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[$],up=2)
 closure((35,2,[$],up=2))
+closure_() 264
 closure((37,2,[$],up=2))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 265
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[$],up=2)
 closure((38,2,[$],up=2))
+closure_() 266
 closure((44,2,[$],up=2))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 267
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[$],up=2)
 closure((45,2,[$],up=2))
+closure_() 268
 closure((54,2,[$],up=2))
+closure_() 269
 closure((3,2,[$],up=2))
 FALLING off rule expression
+closure_() 270
 dips into outer ctx: (42,2,[$],up=3)
 closure((42,2,[$],up=3))
+closure_() 271
 closure((40,2,[$],up=3))
+closure_() 272
 closure((43,2,[$],up=3))
+closure_() 273
 closure((52,2,[$],up=3))
+closure_() 274
 closure((55,2,[$],up=3))
+closure_() 275
 closure((53,2,[$],up=3))
+closure_() 276
 closure((51,2,[$],up=3))
+closure_() 277
 closure((25,2,[$],up=3))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 278
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[$],up=3)
 closure((26,2,[$],up=3))
+closure_() 279
 closure((28,2,[$],up=3))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 280
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[$],up=3)
 closure((29,2,[$],up=3))
+closure_() 281
 closure((31,2,[$],up=3))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 282
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[$],up=3)
 closure((32,2,[$],up=3))
+closure_() 283
 closure((34,2,[$],up=3))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 284
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[$],up=3)
 closure((35,2,[$],up=3))
+closure_() 285
 closure((37,2,[$],up=3))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 286
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[$],up=3)
 closure((38,2,[$],up=3))
+closure_() 287
 closure((44,2,[$],up=3))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 288
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[$],up=3)
 closure((45,2,[$],up=3))
+closure_() 289
 closure((54,2,[$],up=3))
+closure_() 290
 closure((3,2,[$],up=3))
 FALLING off rule expression
+closure_() 291
 dips into outer ctx: (24,2,[$],up=4)
 closure((24,2,[$],up=4))
+closure_() 292
 closure((53,2,[$],up=4))
+closure_() 293
 closure((51,2,[$],up=4))
+closure_() 294
 closure((25,2,[$],up=4))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 295
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[$],up=4)
 closure((26,2,[$],up=4))
+closure_() 296
 closure((28,2,[$],up=4))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 297
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[$],up=4)
 closure((29,2,[$],up=4))
+closure_() 298
 closure((31,2,[$],up=4))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 299
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[$],up=4)
 closure((32,2,[$],up=4))
+closure_() 300
 closure((34,2,[$],up=4))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 301
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[$],up=4)
 closure((35,2,[$],up=4))
+closure_() 302
 closure((37,2,[$],up=4))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 303
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[$],up=4)
 closure((38,2,[$],up=4))
+closure_() 304
 closure((44,2,[$],up=4))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 305
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[$],up=4)
 closure((45,2,[$],up=4))
+closure_() 306
 closure((54,2,[$],up=4))
+closure_() 307
 closure((3,2,[$],up=4))
 FALLING off rule expression
+closure_() 308
 dips into outer ctx: (52,2,[$],up=5)
 closure((52,2,[$],up=5))
+closure_() 309
 closure((55,2,[$],up=5))
+closure_() 310
 closure((53,2,[$],up=5))
+closure_() 311
 closure((51,2,[$],up=5))
+closure_() 312
 closure((25,2,[$],up=5))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 313
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[$],up=5)
 closure((26,2,[$],up=5))
+closure_() 314
 closure((28,2,[$],up=5))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 315
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[$],up=5)
 closure((29,2,[$],up=5))
+closure_() 316
 closure((31,2,[$],up=5))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 317
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[$],up=5)
 closure((32,2,[$],up=5))
+closure_() 318
 closure((34,2,[$],up=5))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 319
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[$],up=5)
 closure((35,2,[$],up=5))
+closure_() 320
 closure((37,2,[$],up=5))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 321
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[$],up=5)
 closure((38,2,[$],up=5))
+closure_() 322
 closure((44,2,[$],up=5))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 323
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[$],up=5)
 closure((45,2,[$],up=5))
+closure_() 324
 closure((54,2,[$],up=5))
+closure_() 325
 closure((3,2,[$],up=5))
 FALLING off rule expression
+closure_() 326
 dips into outer ctx: (43,2,[$],up=6)
 closure((43,2,[$],up=6))
+closure_() 327
 closure((52,2,[$],up=6))
+closure_() 328
 closure((55,2,[$],up=6))
+closure_() 329
 closure((53,2,[$],up=6))
+closure_() 330
 closure((51,2,[$],up=6))
+closure_() 331
 closure((25,2,[$],up=6))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 332
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[$],up=6)
 closure((26,2,[$],up=6))
+closure_() 333
 closure((28,2,[$],up=6))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 334
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[$],up=6)
 closure((29,2,[$],up=6))
+closure_() 335
 closure((31,2,[$],up=6))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 336
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[$],up=6)
 closure((32,2,[$],up=6))
+closure_() 337
 closure((34,2,[$],up=6))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 338
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[$],up=6)
 closure((35,2,[$],up=6))
+closure_() 339
 closure((37,2,[$],up=6))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 340
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[$],up=6)
 closure((38,2,[$],up=6))
+closure_() 341
 closure((44,2,[$],up=6))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 342
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[$],up=6)
 closure((45,2,[$],up=6))
+closure_() 343
 closure((54,2,[$],up=6))
+closure_() 344
 closure((3,2,[$],up=6))
 FALLING off rule expression
+closure_() 345
 dips into outer ctx: (49,2,[$],up=7)
 closure((49,2,[$],up=7))
+closure_() 346
 closure((47,2,[$],up=7))
+closure_() 347
 closure((50,2,[$],up=7))
+closure_() 348
 closure((52,2,[$],up=7))
+closure_() 349
 closure((55,2,[$],up=7))
+closure_() 350
 closure((53,2,[$],up=7))
+closure_() 351
 closure((51,2,[$],up=7))
+closure_() 352
 closure((25,2,[$],up=7))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 353
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[$],up=7)
 closure((26,2,[$],up=7))
+closure_() 354
 closure((28,2,[$],up=7))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 355
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[$],up=7)
 closure((29,2,[$],up=7))
+closure_() 356
 closure((31,2,[$],up=7))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 357
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[$],up=7)
 closure((32,2,[$],up=7))
+closure_() 358
 closure((34,2,[$],up=7))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 359
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[$],up=7)
 closure((35,2,[$],up=7))
+closure_() 360
 closure((37,2,[$],up=7))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 361
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[$],up=7)
 closure((38,2,[$],up=7))
+closure_() 362
 closure((44,2,[$],up=7))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 363
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[$],up=7)
 closure((45,2,[$],up=7))
+closure_() 364
 closure((54,2,[$],up=7))
+closure_() 365
 closure((3,2,[$],up=7))
 FALLING off rule expression
+closure_() 366
 dips into outer ctx: (50,2,[$],up=8)
 closure((50,2,[$],up=8))
+closure_() 367
 closure((52,2,[$],up=8))
+closure_() 368
 closure((55,2,[$],up=8))
+closure_() 369
 closure((53,2,[$],up=8))
+closure_() 370
 closure((51,2,[$],up=8))
+closure_() 371
 closure((25,2,[$],up=8))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 372
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[$],up=8)
 closure((26,2,[$],up=8))
+closure_() 373
 closure((28,2,[$],up=8))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 374
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[$],up=8)
 closure((29,2,[$],up=8))
+closure_() 375
 closure((31,2,[$],up=8))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 376
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[$],up=8)
 closure((32,2,[$],up=8))
+closure_() 377
 closure((34,2,[$],up=8))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 378
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[$],up=8)
 closure((35,2,[$],up=8))
+closure_() 379
 closure((37,2,[$],up=8))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 380
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[$],up=8)
 closure((38,2,[$],up=8))
+closure_() 381
 closure((44,2,[$],up=8))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 382
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[$],up=8)
 closure((45,2,[$],up=8))
+closure_() 383
 closure((54,2,[$],up=8))
+closure_() 384
 closure((3,2,[$],up=8))
 FALLING off rule expression
+closure_() 385
 adding new DFA state: 2:[(7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext
 execATN decision 4 exec LA(1)==OR<2> line 1:7
 s0 = 2:[(7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext
@@ -875,7 +1259,7 @@ testing OR<2> at (45,2,[$],up=8)
 testing OR<2> at (19,2,[$],up=2)
 testing OR<2> at (40,2,[$],up=3)
 testing OR<2> at (47,2,[$],up=7)
-SLL altSubSets=[{2}], configs=[(30,2,[$],up=8)],dipsIntoOuterContext, predict=2, allSubsetsConflict=false, conflictingAlts={2}
+SLL altSubSets=[{2}], configs=[(30,2,[$],up=8)],dipsIntoOuterContext, predict=2, allSubsetsConflict=False, conflictingAlts={2}
 EDGE 2:[(7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext -> -1:[(30,2,[$],up=8)],uniqueAlt=2,dipsIntoOuterContext=>2 upon OR<2>
 adding new DFA state: 3:[(30,2,[$],up=8)],uniqueAlt=2,dipsIntoOuterContext=>2
 DFA=
@@ -907,34 +1291,56 @@ testing OR<2> at (19,2,[$],up=2)
 testing OR<2> at (40,2,[$],up=3)
 testing OR<2> at (47,2,[$],up=7)
 closure((30,1,[$]))
+closure_() 386
 CALL rule expression, ctx=$
 closure((2,1,[52 $]))
+closure_() 387
 closure((23,1,[52 $]))
+closure_() 388
 closure((9,1,[52 $]))
+closure_() 389
 ACTION edge 1:-1
 closure((10,1,[52 $]))
+closure_() 390
 closure((14,1,[52 $]))
+closure_() 391
 closure((16,1,[52 $]))
+closure_() 392
 closure((21,1,[52 $]))
+closure_() 393
 CALL rule boolean, ctx=52 $
 closure((4,1,[24 52 $]))
+closure_() 394
 closure((56,1,[24 52 $]))
+closure_() 395
 closure((22,1,[52 $]))
+closure_() 396
 closure((30,2,[$],up=8))
+closure_() 397
 CALL rule expression, ctx=$
 closure((2,2,[52 $],up=8))
+closure_() 398
 closure((23,2,[52 $],up=8))
+closure_() 399
 closure((9,2,[52 $],up=8))
+closure_() 400
 ACTION edge 1:-1
 closure((10,2,[52 $],up=8))
+closure_() 401
 closure((14,2,[52 $],up=8))
+closure_() 402
 closure((16,2,[52 $],up=8))
+closure_() 403
 closure((21,2,[52 $],up=8))
+closure_() 404
 CALL rule boolean, ctx=52 $
 closure((4,2,[24 52 $],up=8))
+closure_() 405
 closure((56,2,[24 52 $],up=8))
+closure_() 406
 closure((22,2,[52 $],up=8))
-SLL altSubSets=[{1, 2}, {1, 2}, {1, 2}, {1, 2}, {1, 2}], configs=[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],dipsIntoOuterContext, predict=0, allSubsetsConflict=true, conflictingAlts={1, 2}
+closure_() 407
+SLL altSubSets=[{1, 2}, {1, 2}, {1, 2}, {1, 2}, {1, 2}], configs=[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],dipsIntoOuterContext, predict=0, allSubsetsConflict=True, conflictingAlts={1, 2}
 EDGE 0:[(26,1,[$]), (29,1,[$]), (32,1,[$]), (35,1,[$]), (38,1,[$]), (45,1,[$]), (7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext -> -1:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext=>1 upon OR<2>
 adding new DFA state: 4:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext=>1
 DFA=
@@ -944,39 +1350,54 @@ s2-OR->:s3=>2
 
 ctx sensitive state [6] in 4:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext=>1
 closure((51,1,[7 $]))
+closure_() 408
 closure((25,1,[7 $]))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 409
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(26,1,[7 $])
 closure((26,1,[7 $]))
+closure_() 410
 closure((28,1,[7 $]))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 411
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(29,1,[7 $])
 closure((29,1,[7 $]))
+closure_() 412
 closure((31,1,[7 $]))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 413
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(32,1,[7 $])
 closure((32,1,[7 $]))
+closure_() 414
 closure((34,1,[7 $]))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 415
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(35,1,[7 $])
 closure((35,1,[7 $]))
+closure_() 416
 closure((37,1,[7 $]))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 417
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(38,1,[7 $])
 closure((38,1,[7 $]))
+closure_() 418
 closure((44,1,[7 $]))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 419
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(45,1,[7 $])
 closure((45,1,[7 $]))
+closure_() 420
 closure((54,2,[7 $]))
+closure_() 421
 closure((3,2,[7 $]))
 closure((7,2,[$]))
+closure_() 422
 reportAttemptingFullContext decision=4:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext, input=OR
 execATNWithFullContext [(26,1,[7 $]), (29,1,[7 $]), (32,1,[7 $]), (35,1,[7 $]), (38,1,[7 $]), (45,1,[7 $]), (7,2,[$])]
 in computeReachSet, starting closure: [(26,1,[7 $]), (29,1,[7 $]), (32,1,[7 $]), (35,1,[7 $]), (38,1,[7 $]), (45,1,[7 $]), (7,2,[$])]
@@ -987,31 +1408,31 @@ testing OR<2> at (35,1,[7 $])
 testing OR<2> at (38,1,[7 $])
 testing OR<2> at (45,1,[7 $])
 testing OR<2> at (7,2,[$])
-LL altSubSets=[{1}], predict=1, resolvesToJustOneViableAlt=1
-reportContextSensitivity decision=4:[(30,1,[7 $])],uniqueAlt=1, input=OR
+LL altSubSets=System.Collections.Generic.Dictionary`2+ValueCollection[Antlr4.Runtime.Atn.ATNConfig,Antlr4.Runtime.Sharpen.BitSet], predict=1, ResolvesToJustOneViableAlt=1
+ReportContextSensitivity decision=4:[(30,1,[7 $])],uniqueAlt=1, input=OR
 DFA after predictATN: s0-OR->:s4^=>1
 s0-EQ->:s1^=>1
 s2-OR->:s3=>2
 
 adaptivePredict decision 3 exec LA(1)==OR<2> line 1:7
 execATN decision 3 exec LA(1)==OR<2> line 1:7
-s0 = 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=true
-in computeReachSet, starting closure: [(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=true
+s0 = 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=True
+in computeReachSet, starting closure: [(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=True
 testing OR<2> at (26,1,[$],{9>=prec}?)
 testing OR<2> at (29,2,[$],{8>=prec}?)
 testing OR<2> at (32,3,[$],{4>=prec}?)
 testing OR<2> at (35,4,[$],{3>=prec}?)
 testing OR<2> at (38,5,[$],{7>=prec}?)
 testing OR<2> at (45,6,[$],{6>=prec}?)
-SLL altSubSets=[{2}], configs=[(30,2,[$],{8>=prec}?)],hasSemanticContext=true, predict=2, allSubsetsConflict=false, conflictingAlts={2}
+SLL altSubSets=[{2}], configs=[(30,2,[$],{8>=prec}?)],hasSemanticContext=True, predict=2, allSubsetsConflict=False, conflictingAlts={2}
 getPredsForAmbigAlts result [null, {-1:-1}?, {8>=prec}?, {-1:-1}?, {-1:-1}?, {-1:-1}?, {-1:-1}?]
-EDGE 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=true -> -1:[(30,2,[$],{8>=prec}?)],hasSemanticContext=true,uniqueAlt=2=>[({8>=prec}?, 2)] upon OR<2>
-adding new DFA state: 2:[(30,2,[$],{8>=prec}?)],hasSemanticContext=true,uniqueAlt=2=>[({8>=prec}?, 2)]
+EDGE 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=True -> -1:[(30,2,[$],{8>=prec}?)],hasSemanticContext=True,uniqueAlt=2=>[({8>=prec}?, 2)] upon OR<2>
+adding new DFA state: 2:[(30,2,[$],{8>=prec}?)],hasSemanticContext=True,uniqueAlt=2=>[({8>=prec}?, 2)]
 DFA=
 s0-OR->:s2=>[({8>=prec}?, 2)]
 s0-EQ->:s1=>[({9>=prec}?, 1)]
 
-eval pred ({8>=prec}?, 2)=true
+eval pred ({8>=prec}?, 2)=True
 PREDICT 2
 DFA after predictATN: s0-OR->:s2=>[({8>=prec}?, 2)]
 s0-EQ->:s1=>[({9>=prec}?, 1)]
@@ -1019,355 +1440,523 @@ s0-EQ->:s1=>[({9>=prec}?, 1)]
 adaptivePredict decision 4 exec LA(1)==EQ<13> line 2:2
 predictATN decision 4 exec LA(1)==EQ<13>, outerContext=[expression expression parse]
 closure((51,1,[$]))
+closure_() 423
 closure((25,1,[$]))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 424
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,1,[$],{9>=prec}?)
 closure((26,1,[$],{9>=prec}?))
+closure_() 425
 closure((28,1,[$]))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 426
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,1,[$],{8>=prec}?)
 closure((29,1,[$],{8>=prec}?))
+closure_() 427
 closure((31,1,[$]))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 428
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,1,[$],{4>=prec}?)
 closure((32,1,[$],{4>=prec}?))
+closure_() 429
 closure((34,1,[$]))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 430
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,1,[$],{3>=prec}?)
 closure((35,1,[$],{3>=prec}?))
+closure_() 431
 closure((37,1,[$]))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 432
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,1,[$],{7>=prec}?)
 closure((38,1,[$],{7>=prec}?))
+closure_() 433
 closure((44,1,[$]))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 434
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,1,[$],{6>=prec}?)
 closure((45,1,[$],{6>=prec}?))
+closure_() 435
 closure((54,2,[$]))
+closure_() 436
 closure((3,2,[$]))
 FALLING off rule expression
+closure_() 437
 dips into outer ctx: (7,2,[$],up=1)
 closure((7,2,[$],up=1))
+closure_() 438
 dips into outer ctx: (12,2,[$],up=1)
 closure((12,2,[$],up=1))
+closure_() 439
 dips into outer ctx: (24,2,[$],up=1)
 closure((24,2,[$],up=1))
+closure_() 440
 closure((53,2,[$],up=1))
+closure_() 441
 closure((51,2,[$],up=1))
+closure_() 442
 closure((25,2,[$],up=1))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 443
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[$],up=1)
 closure((26,2,[$],up=1))
+closure_() 444
 closure((28,2,[$],up=1))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 445
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[$],up=1)
 closure((29,2,[$],up=1))
+closure_() 446
 closure((31,2,[$],up=1))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 447
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[$],up=1)
 closure((32,2,[$],up=1))
+closure_() 448
 closure((34,2,[$],up=1))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 449
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[$],up=1)
 closure((35,2,[$],up=1))
+closure_() 450
 closure((37,2,[$],up=1))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 451
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[$],up=1)
 closure((38,2,[$],up=1))
+closure_() 452
 closure((44,2,[$],up=1))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 453
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[$],up=1)
 closure((45,2,[$],up=1))
+closure_() 454
 closure((54,2,[$],up=1))
+closure_() 455
 closure((3,2,[$],up=1))
 FALLING off rule expression
+closure_() 456
 dips into outer ctx: (19,2,[$],up=2)
 closure((19,2,[$],up=2))
+closure_() 457
 dips into outer ctx: (52,2,[$],up=2)
 closure((52,2,[$],up=2))
+closure_() 458
 closure((55,2,[$],up=2))
+closure_() 459
 closure((53,2,[$],up=2))
+closure_() 460
 closure((51,2,[$],up=2))
+closure_() 461
 closure((25,2,[$],up=2))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 462
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[$],up=2)
 closure((26,2,[$],up=2))
+closure_() 463
 closure((28,2,[$],up=2))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 464
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[$],up=2)
 closure((29,2,[$],up=2))
+closure_() 465
 closure((31,2,[$],up=2))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 466
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[$],up=2)
 closure((32,2,[$],up=2))
+closure_() 467
 closure((34,2,[$],up=2))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 468
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[$],up=2)
 closure((35,2,[$],up=2))
+closure_() 469
 closure((37,2,[$],up=2))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 470
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[$],up=2)
 closure((38,2,[$],up=2))
+closure_() 471
 closure((44,2,[$],up=2))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 472
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[$],up=2)
 closure((45,2,[$],up=2))
+closure_() 473
 closure((54,2,[$],up=2))
+closure_() 474
 closure((3,2,[$],up=2))
 FALLING off rule expression
+closure_() 475
 dips into outer ctx: (42,2,[$],up=3)
 closure((42,2,[$],up=3))
+closure_() 476
 closure((40,2,[$],up=3))
+closure_() 477
 closure((43,2,[$],up=3))
+closure_() 478
 closure((52,2,[$],up=3))
+closure_() 479
 closure((55,2,[$],up=3))
+closure_() 480
 closure((53,2,[$],up=3))
+closure_() 481
 closure((51,2,[$],up=3))
+closure_() 482
 closure((25,2,[$],up=3))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 483
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[$],up=3)
 closure((26,2,[$],up=3))
+closure_() 484
 closure((28,2,[$],up=3))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 485
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[$],up=3)
 closure((29,2,[$],up=3))
+closure_() 486
 closure((31,2,[$],up=3))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 487
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[$],up=3)
 closure((32,2,[$],up=3))
+closure_() 488
 closure((34,2,[$],up=3))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 489
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[$],up=3)
 closure((35,2,[$],up=3))
+closure_() 490
 closure((37,2,[$],up=3))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 491
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[$],up=3)
 closure((38,2,[$],up=3))
+closure_() 492
 closure((44,2,[$],up=3))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 493
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[$],up=3)
 closure((45,2,[$],up=3))
+closure_() 494
 closure((54,2,[$],up=3))
+closure_() 495
 closure((3,2,[$],up=3))
 FALLING off rule expression
+closure_() 496
 dips into outer ctx: (24,2,[$],up=4)
 closure((24,2,[$],up=4))
+closure_() 497
 closure((53,2,[$],up=4))
+closure_() 498
 closure((51,2,[$],up=4))
+closure_() 499
 closure((25,2,[$],up=4))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 500
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[$],up=4)
 closure((26,2,[$],up=4))
+closure_() 501
 closure((28,2,[$],up=4))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 502
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[$],up=4)
 closure((29,2,[$],up=4))
+closure_() 503
 closure((31,2,[$],up=4))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 504
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[$],up=4)
 closure((32,2,[$],up=4))
+closure_() 505
 closure((34,2,[$],up=4))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 506
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[$],up=4)
 closure((35,2,[$],up=4))
+closure_() 507
 closure((37,2,[$],up=4))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 508
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[$],up=4)
 closure((38,2,[$],up=4))
+closure_() 509
 closure((44,2,[$],up=4))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 510
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[$],up=4)
 closure((45,2,[$],up=4))
+closure_() 511
 closure((54,2,[$],up=4))
+closure_() 512
 closure((3,2,[$],up=4))
 FALLING off rule expression
+closure_() 513
 dips into outer ctx: (52,2,[$],up=5)
 closure((52,2,[$],up=5))
+closure_() 514
 closure((55,2,[$],up=5))
+closure_() 515
 closure((53,2,[$],up=5))
+closure_() 516
 closure((51,2,[$],up=5))
+closure_() 517
 closure((25,2,[$],up=5))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 518
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[$],up=5)
 closure((26,2,[$],up=5))
+closure_() 519
 closure((28,2,[$],up=5))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 520
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[$],up=5)
 closure((29,2,[$],up=5))
+closure_() 521
 closure((31,2,[$],up=5))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 522
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[$],up=5)
 closure((32,2,[$],up=5))
+closure_() 523
 closure((34,2,[$],up=5))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 524
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[$],up=5)
 closure((35,2,[$],up=5))
+closure_() 525
 closure((37,2,[$],up=5))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 526
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[$],up=5)
 closure((38,2,[$],up=5))
+closure_() 527
 closure((44,2,[$],up=5))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 528
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[$],up=5)
 closure((45,2,[$],up=5))
+closure_() 529
 closure((54,2,[$],up=5))
+closure_() 530
 closure((3,2,[$],up=5))
 FALLING off rule expression
+closure_() 531
 dips into outer ctx: (43,2,[$],up=6)
 closure((43,2,[$],up=6))
+closure_() 532
 closure((52,2,[$],up=6))
+closure_() 533
 closure((55,2,[$],up=6))
+closure_() 534
 closure((53,2,[$],up=6))
+closure_() 535
 closure((51,2,[$],up=6))
+closure_() 536
 closure((25,2,[$],up=6))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 537
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[$],up=6)
 closure((26,2,[$],up=6))
+closure_() 538
 closure((28,2,[$],up=6))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 539
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[$],up=6)
 closure((29,2,[$],up=6))
+closure_() 540
 closure((31,2,[$],up=6))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 541
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[$],up=6)
 closure((32,2,[$],up=6))
+closure_() 542
 closure((34,2,[$],up=6))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 543
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[$],up=6)
 closure((35,2,[$],up=6))
+closure_() 544
 closure((37,2,[$],up=6))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 545
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[$],up=6)
 closure((38,2,[$],up=6))
+closure_() 546
 closure((44,2,[$],up=6))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 547
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[$],up=6)
 closure((45,2,[$],up=6))
+closure_() 548
 closure((54,2,[$],up=6))
+closure_() 549
 closure((3,2,[$],up=6))
 FALLING off rule expression
+closure_() 550
 dips into outer ctx: (49,2,[$],up=7)
 closure((49,2,[$],up=7))
+closure_() 551
 closure((47,2,[$],up=7))
+closure_() 552
 closure((50,2,[$],up=7))
+closure_() 553
 closure((52,2,[$],up=7))
+closure_() 554
 closure((55,2,[$],up=7))
+closure_() 555
 closure((53,2,[$],up=7))
+closure_() 556
 closure((51,2,[$],up=7))
+closure_() 557
 closure((25,2,[$],up=7))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 558
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[$],up=7)
 closure((26,2,[$],up=7))
+closure_() 559
 closure((28,2,[$],up=7))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 560
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[$],up=7)
 closure((29,2,[$],up=7))
+closure_() 561
 closure((31,2,[$],up=7))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 562
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[$],up=7)
 closure((32,2,[$],up=7))
+closure_() 563
 closure((34,2,[$],up=7))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 564
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[$],up=7)
 closure((35,2,[$],up=7))
+closure_() 565
 closure((37,2,[$],up=7))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 566
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[$],up=7)
 closure((38,2,[$],up=7))
+closure_() 567
 closure((44,2,[$],up=7))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 568
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[$],up=7)
 closure((45,2,[$],up=7))
+closure_() 569
 closure((54,2,[$],up=7))
+closure_() 570
 closure((3,2,[$],up=7))
 FALLING off rule expression
+closure_() 571
 dips into outer ctx: (50,2,[$],up=8)
 closure((50,2,[$],up=8))
+closure_() 572
 closure((52,2,[$],up=8))
+closure_() 573
 closure((55,2,[$],up=8))
+closure_() 574
 closure((53,2,[$],up=8))
+closure_() 575
 closure((51,2,[$],up=8))
+closure_() 576
 closure((25,2,[$],up=8))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 577
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[$],up=8)
 closure((26,2,[$],up=8))
+closure_() 578
 closure((28,2,[$],up=8))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 579
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[$],up=8)
 closure((29,2,[$],up=8))
+closure_() 580
 closure((31,2,[$],up=8))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 581
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[$],up=8)
 closure((32,2,[$],up=8))
+closure_() 582
 closure((34,2,[$],up=8))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 583
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[$],up=8)
 closure((35,2,[$],up=8))
+closure_() 584
 closure((37,2,[$],up=8))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 585
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[$],up=8)
 closure((38,2,[$],up=8))
+closure_() 586
 closure((44,2,[$],up=8))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 587
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[$],up=8)
 closure((45,2,[$],up=8))
+closure_() 588
 closure((54,2,[$],up=8))
+closure_() 589
 closure((3,2,[$],up=8))
 FALLING off rule expression
+closure_() 590
 adding new DFA state: 5:[(26,1,[$]), (7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext
 execATN decision 4 exec LA(1)==EQ<13> line 2:2
 s0 = 5:[(26,1,[$]), (7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext
@@ -1385,34 +1974,56 @@ testing EQ<13> at (19,2,[$],up=2)
 testing EQ<13> at (40,2,[$],up=3)
 testing EQ<13> at (47,2,[$],up=7)
 closure((27,1,[$]))
+closure_() 591
 CALL rule expression, ctx=$
 closure((2,1,[52 $]))
+closure_() 592
 closure((23,1,[52 $]))
+closure_() 593
 closure((9,1,[52 $]))
+closure_() 594
 ACTION edge 1:-1
 closure((10,1,[52 $]))
+closure_() 595
 closure((14,1,[52 $]))
+closure_() 596
 closure((16,1,[52 $]))
+closure_() 597
 closure((21,1,[52 $]))
+closure_() 598
 CALL rule boolean, ctx=52 $
 closure((4,1,[24 52 $]))
+closure_() 599
 closure((56,1,[24 52 $]))
+closure_() 600
 closure((22,1,[52 $]))
+closure_() 601
 closure((27,2,[$],up=8))
+closure_() 602
 CALL rule expression, ctx=$
 closure((2,2,[52 $],up=8))
+closure_() 603
 closure((23,2,[52 $],up=8))
+closure_() 604
 closure((9,2,[52 $],up=8))
+closure_() 605
 ACTION edge 1:-1
 closure((10,2,[52 $],up=8))
+closure_() 606
 closure((14,2,[52 $],up=8))
+closure_() 607
 closure((16,2,[52 $],up=8))
+closure_() 608
 closure((21,2,[52 $],up=8))
+closure_() 609
 CALL rule boolean, ctx=52 $
 closure((4,2,[24 52 $],up=8))
+closure_() 610
 closure((56,2,[24 52 $],up=8))
+closure_() 611
 closure((22,2,[52 $],up=8))
-SLL altSubSets=[{1, 2}, {1, 2}, {1, 2}, {1, 2}, {1, 2}], configs=[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],dipsIntoOuterContext, predict=0, allSubsetsConflict=true, conflictingAlts={1, 2}
+closure_() 612
+SLL altSubSets=[{1, 2}, {1, 2}, {1, 2}, {1, 2}, {1, 2}], configs=[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],dipsIntoOuterContext, predict=0, allSubsetsConflict=True, conflictingAlts={1, 2}
 EDGE 5:[(26,1,[$]), (7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext -> -1:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext=>1 upon EQ<13>
 adding new DFA state: 6:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext=>1
 DFA=
@@ -1423,70 +2034,97 @@ s5-EQ->:s6^=>1
 
 ctx sensitive state [30 6] in 6:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext=>1
 closure((51,1,[52 7 $]))
+closure_() 613
 closure((25,1,[52 7 $]))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 614
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,1,[52 7 $])
 closure((26,1,[52 7 $]))
+closure_() 615
 closure((28,1,[52 7 $]))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 616
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
-config from pred transition=null
+config from pred transition=
 closure((31,1,[52 7 $]))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 617
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
-config from pred transition=null
+config from pred transition=
 closure((34,1,[52 7 $]))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 618
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
-config from pred transition=null
+config from pred transition=
 closure((37,1,[52 7 $]))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 619
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
-config from pred transition=null
+config from pred transition=
 closure((44,1,[52 7 $]))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 620
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
-config from pred transition=null
+config from pred transition=
 closure((54,2,[52 7 $]))
+closure_() 621
 closure((3,2,[52 7 $]))
 closure((52,2,[7 $]))
+closure_() 622
 closure((55,2,[7 $]))
+closure_() 623
 closure((53,2,[7 $]))
+closure_() 624
 closure((51,2,[7 $]))
+closure_() 625
 closure((25,2,[7 $]))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 626
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[7 $])
 closure((26,2,[7 $]))
+closure_() 627
 closure((28,2,[7 $]))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 628
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[7 $])
 closure((29,2,[7 $]))
+closure_() 629
 closure((31,2,[7 $]))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 630
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[7 $])
 closure((32,2,[7 $]))
+closure_() 631
 closure((34,2,[7 $]))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 632
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[7 $])
 closure((35,2,[7 $]))
+closure_() 633
 closure((37,2,[7 $]))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 634
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[7 $])
 closure((38,2,[7 $]))
+closure_() 635
 closure((44,2,[7 $]))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 636
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[7 $])
 closure((45,2,[7 $]))
+closure_() 637
 closure((54,2,[7 $]))
+closure_() 638
 closure((3,2,[7 $]))
 closure((7,2,[$]))
+closure_() 639
 reportAttemptingFullContext decision=4:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext, input=EQ
 execATNWithFullContext [(26,1,[52 7 $]), (26,2,[7 $]), (29,2,[7 $]), (32,2,[7 $]), (35,2,[7 $]), (38,2,[7 $]), (45,2,[7 $]), (7,2,[$])]
 in computeReachSet, starting closure: [(26,1,[52 7 $]), (26,2,[7 $]), (29,2,[7 $]), (32,2,[7 $]), (35,2,[7 $]), (38,2,[7 $]), (45,2,[7 $]), (7,2,[$])]
@@ -1499,34 +2137,56 @@ testing EQ<13> at (38,2,[7 $])
 testing EQ<13> at (45,2,[7 $])
 testing EQ<13> at (7,2,[$])
 closure((27,1,[52 7 $]))
+closure_() 640
 CALL rule expression, ctx=52 7 $
 closure((2,1,[52 52 7 $]))
+closure_() 641
 closure((23,1,[52 52 7 $]))
+closure_() 642
 closure((9,1,[52 52 7 $]))
+closure_() 643
 ACTION edge 1:-1
 closure((10,1,[52 52 7 $]))
+closure_() 644
 closure((14,1,[52 52 7 $]))
+closure_() 645
 closure((16,1,[52 52 7 $]))
+closure_() 646
 closure((21,1,[52 52 7 $]))
+closure_() 647
 CALL rule boolean, ctx=52 52 7 $
 closure((4,1,[24 52 52 7 $]))
+closure_() 648
 closure((56,1,[24 52 52 7 $]))
+closure_() 649
 closure((22,1,[52 52 7 $]))
+closure_() 650
 closure((27,2,[7 $]))
+closure_() 651
 CALL rule expression, ctx=7 $
 closure((2,2,[52 7 $]))
+closure_() 652
 closure((23,2,[52 7 $]))
+closure_() 653
 closure((9,2,[52 7 $]))
+closure_() 654
 ACTION edge 1:-1
 closure((10,2,[52 7 $]))
+closure_() 655
 closure((14,2,[52 7 $]))
+closure_() 656
 closure((16,2,[52 7 $]))
+closure_() 657
 closure((21,2,[52 7 $]))
+closure_() 658
 CALL rule boolean, ctx=52 7 $
 closure((4,2,[24 52 7 $]))
+closure_() 659
 closure((56,2,[24 52 7 $]))
+closure_() 660
 closure((22,2,[52 7 $]))
-LL altSubSets=[{2}, {2}, {1}, {2}, {1}, {2}, {1}, {1}, {1}, {2}], predict=0, resolvesToJustOneViableAlt=0
+closure_() 661
+LL altSubSets=System.Collections.Generic.Dictionary`2+ValueCollection[Antlr4.Runtime.Atn.ATNConfig,Antlr4.Runtime.Sharpen.BitSet], predict=0, ResolvesToJustOneViableAlt=0
 in computeReachSet, starting closure: [(10,1,[52 52 7 $]), (14,1,[52 52 7 $]), (16,1,[52 52 7 $]), (56,1,[24 52 52 7 $]), (22,1,[52 52 7 $]), (10,2,[52 7 $]), (14,2,[52 7 $]), (16,2,[52 7 $]), (56,2,[24 52 7 $]), (22,2,[52 7 $])]
 testing DECIMAL<17> at (10,1,[52 52 7 $])
 testing DECIMAL<17> at (14,1,[52 52 7 $])
@@ -1539,94 +2199,140 @@ testing DECIMAL<17> at (16,2,[52 7 $])
 testing DECIMAL<17> at (56,2,[24 52 7 $])
 testing DECIMAL<17> at (22,2,[52 7 $])
 closure((24,1,[52 52 7 $]))
+closure_() 662
 closure((53,1,[52 52 7 $]))
+closure_() 663
 closure((54,1,[52 52 7 $]))
+closure_() 664
 closure((3,1,[52 52 7 $]))
 closure((52,1,[52 7 $]))
+closure_() 665
 closure((55,1,[52 7 $]))
+closure_() 666
 closure((53,1,[52 7 $]))
+closure_() 667
 closure((54,1,[52 7 $]))
+closure_() 668
 closure((3,1,[52 7 $]))
 closure((52,1,[7 $]))
+closure_() 669
 closure((55,1,[7 $]))
+closure_() 670
 closure((53,1,[7 $]))
+closure_() 671
 closure((51,1,[7 $]))
+closure_() 672
 closure((25,1,[7 $]))
-PRED (collectPredicates=false) 9>=_p, ctx dependent=true
+closure_() 673
+PRED (collectPredicates=False) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,1,[7 $])
 closure((26,1,[7 $]))
+closure_() 674
 closure((28,1,[7 $]))
-PRED (collectPredicates=false) 8>=_p, ctx dependent=true
+closure_() 675
+PRED (collectPredicates=False) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,1,[7 $])
 closure((29,1,[7 $]))
+closure_() 676
 closure((31,1,[7 $]))
-PRED (collectPredicates=false) 4>=_p, ctx dependent=true
+closure_() 677
+PRED (collectPredicates=False) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,1,[7 $])
 closure((32,1,[7 $]))
+closure_() 678
 closure((34,1,[7 $]))
-PRED (collectPredicates=false) 3>=_p, ctx dependent=true
+closure_() 679
+PRED (collectPredicates=False) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,1,[7 $])
 closure((35,1,[7 $]))
+closure_() 680
 closure((37,1,[7 $]))
-PRED (collectPredicates=false) 7>=_p, ctx dependent=true
+closure_() 681
+PRED (collectPredicates=False) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,1,[7 $])
 closure((38,1,[7 $]))
+closure_() 682
 closure((44,1,[7 $]))
-PRED (collectPredicates=false) 6>=_p, ctx dependent=true
+closure_() 683
+PRED (collectPredicates=False) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,1,[7 $])
 closure((45,1,[7 $]))
+closure_() 684
 closure((54,1,[7 $]))
+closure_() 685
 closure((3,1,[7 $]))
 closure((7,1,[$]))
+closure_() 686
 closure((24,2,[52 7 $]))
+closure_() 687
 closure((53,2,[52 7 $]))
+closure_() 688
 closure((54,2,[52 7 $]))
+closure_() 689
 closure((3,2,[52 7 $]))
 closure((52,2,[7 $]))
+closure_() 690
 closure((55,2,[7 $]))
+closure_() 691
 closure((53,2,[7 $]))
+closure_() 692
 closure((51,2,[7 $]))
+closure_() 693
 closure((25,2,[7 $]))
-PRED (collectPredicates=false) 9>=_p, ctx dependent=true
+closure_() 694
+PRED (collectPredicates=False) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[7 $])
 closure((26,2,[7 $]))
+closure_() 695
 closure((28,2,[7 $]))
-PRED (collectPredicates=false) 8>=_p, ctx dependent=true
+closure_() 696
+PRED (collectPredicates=False) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[7 $])
 closure((29,2,[7 $]))
+closure_() 697
 closure((31,2,[7 $]))
-PRED (collectPredicates=false) 4>=_p, ctx dependent=true
+closure_() 698
+PRED (collectPredicates=False) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[7 $])
 closure((32,2,[7 $]))
+closure_() 699
 closure((34,2,[7 $]))
-PRED (collectPredicates=false) 3>=_p, ctx dependent=true
+closure_() 700
+PRED (collectPredicates=False) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[7 $])
 closure((35,2,[7 $]))
+closure_() 701
 closure((37,2,[7 $]))
-PRED (collectPredicates=false) 7>=_p, ctx dependent=true
+closure_() 702
+PRED (collectPredicates=False) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[7 $])
 closure((38,2,[7 $]))
+closure_() 703
 closure((44,2,[7 $]))
-PRED (collectPredicates=false) 6>=_p, ctx dependent=true
+closure_() 704
+PRED (collectPredicates=False) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[7 $])
 closure((45,2,[7 $]))
+closure_() 705
 closure((54,2,[7 $]))
+closure_() 706
 closure((3,2,[7 $]))
 closure((7,2,[$]))
-LL altSubSets=[{1, 2}, {1, 2}, {1, 2}, {1, 2}, {1, 2}, {1, 2}, {1, 2}], predict=0, resolvesToJustOneViableAlt=1
-reportAmbiguity {1, 2}:[(26,1,[7 $]), (29,1,[7 $]), (32,1,[7 $]), (35,1,[7 $]), (38,1,[7 $]), (45,1,[7 $]), (7,1,[$]), (26,2,[7 $]), (29,2,[7 $]), (32,2,[7 $]), (35,2,[7 $]), (38,2,[7 $]), (45,2,[7 $]), (7,2,[$])], input=EQ2
+closure_() 707
+LL altSubSets=System.Collections.Generic.Dictionary`2+ValueCollection[Antlr4.Runtime.Atn.ATNConfig,Antlr4.Runtime.Sharpen.BitSet], predict=0, ResolvesToJustOneViableAlt=1
+ReportAmbiguity {1, 2}:[(26,1,[7 $]), (29,1,[7 $]), (32,1,[7 $]), (35,1,[7 $]), (38,1,[7 $]), (45,1,[7 $]), (7,1,[$]), (26,2,[7 $]), (29,2,[7 $]), (32,2,[7 $]), (35,2,[7 $]), (38,2,[7 $]), (45,2,[7 $]), (7,2,[$])], input=EQ2
 DFA after predictATN: s0-OR->:s4^=>1
 s0-EQ->:s1^=>1
 s2-OR->:s3=>2
@@ -1634,8 +2340,8 @@ s5-EQ->:s6^=>1
 
 adaptivePredict decision 3 exec LA(1)==EQ<13> line 2:2
 execATN decision 3 exec LA(1)==EQ<13> line 2:2
-s0 = 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=true
-eval pred ({9>=prec}?, 1)=true
+s0 = 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=True
+eval pred ({9>=prec}?, 1)=True
 PREDICT 1
 DFA after predictATN: s0-OR->:s2=>[({8>=prec}?, 2)]
 s0-EQ->:s1=>[({9>=prec}?, 1)]
@@ -1664,7 +2370,7 @@ testing OR<2> at (45,2,[$],up=8)
 testing OR<2> at (19,2,[$],up=2)
 testing OR<2> at (40,2,[$],up=3)
 testing OR<2> at (47,2,[$],up=7)
-SLL altSubSets=[{2}], configs=[(30,2,[$],up=8)],dipsIntoOuterContext, predict=2, allSubsetsConflict=false, conflictingAlts={2}
+SLL altSubSets=[{2}], configs=[(30,2,[$],up=8)],dipsIntoOuterContext, predict=2, allSubsetsConflict=False, conflictingAlts={2}
 EDGE 5:[(26,1,[$]), (7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext -> -1:[(30,2,[$],up=8)],uniqueAlt=2,dipsIntoOuterContext=>2 upon OR<2>
 DFA=
 s0-OR->:s4^=>1
@@ -1684,39 +2390,54 @@ execATN decision 4 exec LA(1)==OR<2> line 2:7
 s0 = 0:[(26,1,[$]), (29,1,[$]), (32,1,[$]), (35,1,[$]), (38,1,[$]), (45,1,[$]), (7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext
 ctx sensitive state [6] in 4:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext=>1
 closure((51,1,[7 $]))
+closure_() 708
 closure((25,1,[7 $]))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 709
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(26,1,[7 $])
 closure((26,1,[7 $]))
+closure_() 710
 closure((28,1,[7 $]))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 711
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(29,1,[7 $])
 closure((29,1,[7 $]))
+closure_() 712
 closure((31,1,[7 $]))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 713
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(32,1,[7 $])
 closure((32,1,[7 $]))
+closure_() 714
 closure((34,1,[7 $]))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 715
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(35,1,[7 $])
 closure((35,1,[7 $]))
+closure_() 716
 closure((37,1,[7 $]))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 717
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(38,1,[7 $])
 closure((38,1,[7 $]))
+closure_() 718
 closure((44,1,[7 $]))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 719
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(45,1,[7 $])
 closure((45,1,[7 $]))
+closure_() 720
 closure((54,2,[7 $]))
+closure_() 721
 closure((3,2,[7 $]))
 closure((7,2,[$]))
+closure_() 722
 reportAttemptingFullContext decision=4:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext, input=OR
 execATNWithFullContext [(26,1,[7 $]), (29,1,[7 $]), (32,1,[7 $]), (35,1,[7 $]), (38,1,[7 $]), (45,1,[7 $]), (7,2,[$])]
 in computeReachSet, starting closure: [(26,1,[7 $]), (29,1,[7 $]), (32,1,[7 $]), (35,1,[7 $]), (38,1,[7 $]), (45,1,[7 $]), (7,2,[$])]
@@ -1727,8 +2448,8 @@ testing OR<2> at (35,1,[7 $])
 testing OR<2> at (38,1,[7 $])
 testing OR<2> at (45,1,[7 $])
 testing OR<2> at (7,2,[$])
-LL altSubSets=[{1}], predict=1, resolvesToJustOneViableAlt=1
-reportContextSensitivity decision=4:[(30,1,[7 $])],uniqueAlt=1, input=OR
+LL altSubSets=System.Collections.Generic.Dictionary`2+ValueCollection[Antlr4.Runtime.Atn.ATNConfig,Antlr4.Runtime.Sharpen.BitSet], predict=1, ResolvesToJustOneViableAlt=1
+ReportContextSensitivity decision=4:[(30,1,[7 $])],uniqueAlt=1, input=OR
 DFA after predictATN: s0-OR->:s4^=>1
 s0-EQ->:s1^=>1
 s2-OR->:s3=>2
@@ -1737,8 +2458,8 @@ s5-EQ->:s6^=>1
 
 adaptivePredict decision 3 exec LA(1)==OR<2> line 2:7
 execATN decision 3 exec LA(1)==OR<2> line 2:7
-s0 = 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=true
-eval pred ({8>=prec}?, 2)=true
+s0 = 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=True
+eval pred ({8>=prec}?, 2)=True
 PREDICT 2
 DFA after predictATN: s0-OR->:s2=>[({8>=prec}?, 2)]
 s0-EQ->:s1=>[({9>=prec}?, 1)]
@@ -1748,70 +2469,97 @@ execATN decision 4 exec LA(1)==EQ<13> line 3:2
 s0 = 5:[(26,1,[$]), (7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext
 ctx sensitive state [30 6] in 6:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext=>1
 closure((51,1,[52 7 $]))
+closure_() 723
 closure((25,1,[52 7 $]))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 724
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,1,[52 7 $])
 closure((26,1,[52 7 $]))
+closure_() 725
 closure((28,1,[52 7 $]))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 726
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
-config from pred transition=null
+config from pred transition=
 closure((31,1,[52 7 $]))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 727
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
-config from pred transition=null
+config from pred transition=
 closure((34,1,[52 7 $]))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 728
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
-config from pred transition=null
+config from pred transition=
 closure((37,1,[52 7 $]))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 729
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
-config from pred transition=null
+config from pred transition=
 closure((44,1,[52 7 $]))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 730
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
-config from pred transition=null
+config from pred transition=
 closure((54,2,[52 7 $]))
+closure_() 731
 closure((3,2,[52 7 $]))
 closure((52,2,[7 $]))
+closure_() 732
 closure((55,2,[7 $]))
+closure_() 733
 closure((53,2,[7 $]))
+closure_() 734
 closure((51,2,[7 $]))
+closure_() 735
 closure((25,2,[7 $]))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 736
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[7 $])
 closure((26,2,[7 $]))
+closure_() 737
 closure((28,2,[7 $]))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 738
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[7 $])
 closure((29,2,[7 $]))
+closure_() 739
 closure((31,2,[7 $]))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 740
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[7 $])
 closure((32,2,[7 $]))
+closure_() 741
 closure((34,2,[7 $]))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 742
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[7 $])
 closure((35,2,[7 $]))
+closure_() 743
 closure((37,2,[7 $]))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 744
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[7 $])
 closure((38,2,[7 $]))
+closure_() 745
 closure((44,2,[7 $]))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 746
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[7 $])
 closure((45,2,[7 $]))
+closure_() 747
 closure((54,2,[7 $]))
+closure_() 748
 closure((3,2,[7 $]))
 closure((7,2,[$]))
+closure_() 749
 reportAttemptingFullContext decision=4:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext, input=EQ
 execATNWithFullContext [(26,1,[52 7 $]), (26,2,[7 $]), (29,2,[7 $]), (32,2,[7 $]), (35,2,[7 $]), (38,2,[7 $]), (45,2,[7 $]), (7,2,[$])]
 in computeReachSet, starting closure: [(26,1,[52 7 $]), (26,2,[7 $]), (29,2,[7 $]), (32,2,[7 $]), (35,2,[7 $]), (38,2,[7 $]), (45,2,[7 $]), (7,2,[$])]
@@ -1824,34 +2572,56 @@ testing EQ<13> at (38,2,[7 $])
 testing EQ<13> at (45,2,[7 $])
 testing EQ<13> at (7,2,[$])
 closure((27,1,[52 7 $]))
+closure_() 750
 CALL rule expression, ctx=52 7 $
 closure((2,1,[52 52 7 $]))
+closure_() 751
 closure((23,1,[52 52 7 $]))
+closure_() 752
 closure((9,1,[52 52 7 $]))
+closure_() 753
 ACTION edge 1:-1
 closure((10,1,[52 52 7 $]))
+closure_() 754
 closure((14,1,[52 52 7 $]))
+closure_() 755
 closure((16,1,[52 52 7 $]))
+closure_() 756
 closure((21,1,[52 52 7 $]))
+closure_() 757
 CALL rule boolean, ctx=52 52 7 $
 closure((4,1,[24 52 52 7 $]))
+closure_() 758
 closure((56,1,[24 52 52 7 $]))
+closure_() 759
 closure((22,1,[52 52 7 $]))
+closure_() 760
 closure((27,2,[7 $]))
+closure_() 761
 CALL rule expression, ctx=7 $
 closure((2,2,[52 7 $]))
+closure_() 762
 closure((23,2,[52 7 $]))
+closure_() 763
 closure((9,2,[52 7 $]))
+closure_() 764
 ACTION edge 1:-1
 closure((10,2,[52 7 $]))
+closure_() 765
 closure((14,2,[52 7 $]))
+closure_() 766
 closure((16,2,[52 7 $]))
+closure_() 767
 closure((21,2,[52 7 $]))
+closure_() 768
 CALL rule boolean, ctx=52 7 $
 closure((4,2,[24 52 7 $]))
+closure_() 769
 closure((56,2,[24 52 7 $]))
+closure_() 770
 closure((22,2,[52 7 $]))
-LL altSubSets=[{2}, {2}, {1}, {2}, {1}, {2}, {1}, {1}, {1}, {2}], predict=0, resolvesToJustOneViableAlt=0
+closure_() 771
+LL altSubSets=System.Collections.Generic.Dictionary`2+ValueCollection[Antlr4.Runtime.Atn.ATNConfig,Antlr4.Runtime.Sharpen.BitSet], predict=0, ResolvesToJustOneViableAlt=0
 in computeReachSet, starting closure: [(10,1,[52 52 7 $]), (14,1,[52 52 7 $]), (16,1,[52 52 7 $]), (56,1,[24 52 52 7 $]), (22,1,[52 52 7 $]), (10,2,[52 7 $]), (14,2,[52 7 $]), (16,2,[52 7 $]), (56,2,[24 52 7 $]), (22,2,[52 7 $])]
 testing DECIMAL<17> at (10,1,[52 52 7 $])
 testing DECIMAL<17> at (14,1,[52 52 7 $])
@@ -1864,94 +2634,140 @@ testing DECIMAL<17> at (16,2,[52 7 $])
 testing DECIMAL<17> at (56,2,[24 52 7 $])
 testing DECIMAL<17> at (22,2,[52 7 $])
 closure((24,1,[52 52 7 $]))
+closure_() 772
 closure((53,1,[52 52 7 $]))
+closure_() 773
 closure((54,1,[52 52 7 $]))
+closure_() 774
 closure((3,1,[52 52 7 $]))
 closure((52,1,[52 7 $]))
+closure_() 775
 closure((55,1,[52 7 $]))
+closure_() 776
 closure((53,1,[52 7 $]))
+closure_() 777
 closure((54,1,[52 7 $]))
+closure_() 778
 closure((3,1,[52 7 $]))
 closure((52,1,[7 $]))
+closure_() 779
 closure((55,1,[7 $]))
+closure_() 780
 closure((53,1,[7 $]))
+closure_() 781
 closure((51,1,[7 $]))
+closure_() 782
 closure((25,1,[7 $]))
-PRED (collectPredicates=false) 9>=_p, ctx dependent=true
+closure_() 783
+PRED (collectPredicates=False) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,1,[7 $])
 closure((26,1,[7 $]))
+closure_() 784
 closure((28,1,[7 $]))
-PRED (collectPredicates=false) 8>=_p, ctx dependent=true
+closure_() 785
+PRED (collectPredicates=False) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,1,[7 $])
 closure((29,1,[7 $]))
+closure_() 786
 closure((31,1,[7 $]))
-PRED (collectPredicates=false) 4>=_p, ctx dependent=true
+closure_() 787
+PRED (collectPredicates=False) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,1,[7 $])
 closure((32,1,[7 $]))
+closure_() 788
 closure((34,1,[7 $]))
-PRED (collectPredicates=false) 3>=_p, ctx dependent=true
+closure_() 789
+PRED (collectPredicates=False) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,1,[7 $])
 closure((35,1,[7 $]))
+closure_() 790
 closure((37,1,[7 $]))
-PRED (collectPredicates=false) 7>=_p, ctx dependent=true
+closure_() 791
+PRED (collectPredicates=False) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,1,[7 $])
 closure((38,1,[7 $]))
+closure_() 792
 closure((44,1,[7 $]))
-PRED (collectPredicates=false) 6>=_p, ctx dependent=true
+closure_() 793
+PRED (collectPredicates=False) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,1,[7 $])
 closure((45,1,[7 $]))
+closure_() 794
 closure((54,1,[7 $]))
+closure_() 795
 closure((3,1,[7 $]))
 closure((7,1,[$]))
+closure_() 796
 closure((24,2,[52 7 $]))
+closure_() 797
 closure((53,2,[52 7 $]))
+closure_() 798
 closure((54,2,[52 7 $]))
+closure_() 799
 closure((3,2,[52 7 $]))
 closure((52,2,[7 $]))
+closure_() 800
 closure((55,2,[7 $]))
+closure_() 801
 closure((53,2,[7 $]))
+closure_() 802
 closure((51,2,[7 $]))
+closure_() 803
 closure((25,2,[7 $]))
-PRED (collectPredicates=false) 9>=_p, ctx dependent=true
+closure_() 804
+PRED (collectPredicates=False) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[7 $])
 closure((26,2,[7 $]))
+closure_() 805
 closure((28,2,[7 $]))
-PRED (collectPredicates=false) 8>=_p, ctx dependent=true
+closure_() 806
+PRED (collectPredicates=False) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[7 $])
 closure((29,2,[7 $]))
+closure_() 807
 closure((31,2,[7 $]))
-PRED (collectPredicates=false) 4>=_p, ctx dependent=true
+closure_() 808
+PRED (collectPredicates=False) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[7 $])
 closure((32,2,[7 $]))
+closure_() 809
 closure((34,2,[7 $]))
-PRED (collectPredicates=false) 3>=_p, ctx dependent=true
+closure_() 810
+PRED (collectPredicates=False) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[7 $])
 closure((35,2,[7 $]))
+closure_() 811
 closure((37,2,[7 $]))
-PRED (collectPredicates=false) 7>=_p, ctx dependent=true
+closure_() 812
+PRED (collectPredicates=False) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[7 $])
 closure((38,2,[7 $]))
+closure_() 813
 closure((44,2,[7 $]))
-PRED (collectPredicates=false) 6>=_p, ctx dependent=true
+closure_() 814
+PRED (collectPredicates=False) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[7 $])
 closure((45,2,[7 $]))
+closure_() 815
 closure((54,2,[7 $]))
+closure_() 816
 closure((3,2,[7 $]))
 closure((7,2,[$]))
-LL altSubSets=[{1, 2}, {1, 2}, {1, 2}, {1, 2}, {1, 2}, {1, 2}, {1, 2}], predict=0, resolvesToJustOneViableAlt=1
-reportAmbiguity {1, 2}:[(26,1,[7 $]), (29,1,[7 $]), (32,1,[7 $]), (35,1,[7 $]), (38,1,[7 $]), (45,1,[7 $]), (7,1,[$]), (26,2,[7 $]), (29,2,[7 $]), (32,2,[7 $]), (35,2,[7 $]), (38,2,[7 $]), (45,2,[7 $]), (7,2,[$])], input=EQ2
+closure_() 817
+LL altSubSets=System.Collections.Generic.Dictionary`2+ValueCollection[Antlr4.Runtime.Atn.ATNConfig,Antlr4.Runtime.Sharpen.BitSet], predict=0, ResolvesToJustOneViableAlt=1
+ReportAmbiguity {1, 2}:[(26,1,[7 $]), (29,1,[7 $]), (32,1,[7 $]), (35,1,[7 $]), (38,1,[7 $]), (45,1,[7 $]), (7,1,[$]), (26,2,[7 $]), (29,2,[7 $]), (32,2,[7 $]), (35,2,[7 $]), (38,2,[7 $]), (45,2,[7 $]), (7,2,[$])], input=EQ2
 DFA after predictATN: s0-OR->:s4^=>1
 s0-EQ->:s1^=>1
 s2-OR->:s3=>2
@@ -1960,8 +2776,8 @@ s5-EQ->:s6^=>1
 
 adaptivePredict decision 3 exec LA(1)==EQ<13> line 3:2
 execATN decision 3 exec LA(1)==EQ<13> line 3:2
-s0 = 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=true
-eval pred ({9>=prec}?, 1)=true
+s0 = 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=True
+eval pred ({9>=prec}?, 1)=True
 PREDICT 1
 DFA after predictATN: s0-OR->:s2=>[({8>=prec}?, 2)]
 s0-EQ->:s1=>[({9>=prec}?, 1)]
@@ -1989,39 +2805,54 @@ execATN decision 4 exec LA(1)==OR<2> line 3:7
 s0 = 0:[(26,1,[$]), (29,1,[$]), (32,1,[$]), (35,1,[$]), (38,1,[$]), (45,1,[$]), (7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext
 ctx sensitive state [6] in 4:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext=>1
 closure((51,1,[7 $]))
+closure_() 818
 closure((25,1,[7 $]))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 819
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(26,1,[7 $])
 closure((26,1,[7 $]))
+closure_() 820
 closure((28,1,[7 $]))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 821
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(29,1,[7 $])
 closure((29,1,[7 $]))
+closure_() 822
 closure((31,1,[7 $]))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 823
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(32,1,[7 $])
 closure((32,1,[7 $]))
+closure_() 824
 closure((34,1,[7 $]))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 825
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(35,1,[7 $])
 closure((35,1,[7 $]))
+closure_() 826
 closure((37,1,[7 $]))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 827
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(38,1,[7 $])
 closure((38,1,[7 $]))
+closure_() 828
 closure((44,1,[7 $]))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 829
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, parse]
 config from pred transition=(45,1,[7 $])
 closure((45,1,[7 $]))
+closure_() 830
 closure((54,2,[7 $]))
+closure_() 831
 closure((3,2,[7 $]))
 closure((7,2,[$]))
+closure_() 832
 reportAttemptingFullContext decision=4:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext, input=OR
 execATNWithFullContext [(26,1,[7 $]), (29,1,[7 $]), (32,1,[7 $]), (35,1,[7 $]), (38,1,[7 $]), (45,1,[7 $]), (7,2,[$])]
 in computeReachSet, starting closure: [(26,1,[7 $]), (29,1,[7 $]), (32,1,[7 $]), (35,1,[7 $]), (38,1,[7 $]), (45,1,[7 $]), (7,2,[$])]
@@ -2032,8 +2863,8 @@ testing OR<2> at (35,1,[7 $])
 testing OR<2> at (38,1,[7 $])
 testing OR<2> at (45,1,[7 $])
 testing OR<2> at (7,2,[$])
-LL altSubSets=[{1}], predict=1, resolvesToJustOneViableAlt=1
-reportContextSensitivity decision=4:[(30,1,[7 $])],uniqueAlt=1, input=OR
+LL altSubSets=System.Collections.Generic.Dictionary`2+ValueCollection[Antlr4.Runtime.Atn.ATNConfig,Antlr4.Runtime.Sharpen.BitSet], predict=1, ResolvesToJustOneViableAlt=1
+ReportContextSensitivity decision=4:[(30,1,[7 $])],uniqueAlt=1, input=OR
 DFA after predictATN: s0-OR->:s4^=>1
 s0-EQ->:s1^=>1
 s2-OR->:s3=>2
@@ -2042,8 +2873,8 @@ s5-EQ->:s6^=>1
 
 adaptivePredict decision 3 exec LA(1)==OR<2> line 3:7
 execATN decision 3 exec LA(1)==OR<2> line 3:7
-s0 = 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=true
-eval pred ({8>=prec}?, 2)=true
+s0 = 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=True
+eval pred ({8>=prec}?, 2)=True
 PREDICT 2
 DFA after predictATN: s0-OR->:s2=>[({8>=prec}?, 2)]
 s0-EQ->:s1=>[({9>=prec}?, 1)]
@@ -2053,70 +2884,97 @@ execATN decision 4 exec LA(1)==EQ<13> line 4:2
 s0 = 5:[(26,1,[$]), (7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext
 ctx sensitive state [30 6] in 6:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext=>1
 closure((51,1,[52 7 $]))
+closure_() 833
 closure((25,1,[52 7 $]))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 834
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,1,[52 7 $])
 closure((26,1,[52 7 $]))
+closure_() 835
 closure((28,1,[52 7 $]))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 836
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
-config from pred transition=null
+config from pred transition=
 closure((31,1,[52 7 $]))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 837
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
-config from pred transition=null
+config from pred transition=
 closure((34,1,[52 7 $]))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 838
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
-config from pred transition=null
+config from pred transition=
 closure((37,1,[52 7 $]))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 839
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
-config from pred transition=null
+config from pred transition=
 closure((44,1,[52 7 $]))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 840
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
-config from pred transition=null
+config from pred transition=
 closure((54,2,[52 7 $]))
+closure_() 841
 closure((3,2,[52 7 $]))
 closure((52,2,[7 $]))
+closure_() 842
 closure((55,2,[7 $]))
+closure_() 843
 closure((53,2,[7 $]))
+closure_() 844
 closure((51,2,[7 $]))
+closure_() 845
 closure((25,2,[7 $]))
-PRED (collectPredicates=true) 9>=_p, ctx dependent=true
+closure_() 846
+PRED (collectPredicates=True) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[7 $])
 closure((26,2,[7 $]))
+closure_() 847
 closure((28,2,[7 $]))
-PRED (collectPredicates=true) 8>=_p, ctx dependent=true
+closure_() 848
+PRED (collectPredicates=True) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[7 $])
 closure((29,2,[7 $]))
+closure_() 849
 closure((31,2,[7 $]))
-PRED (collectPredicates=true) 4>=_p, ctx dependent=true
+closure_() 850
+PRED (collectPredicates=True) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[7 $])
 closure((32,2,[7 $]))
+closure_() 851
 closure((34,2,[7 $]))
-PRED (collectPredicates=true) 3>=_p, ctx dependent=true
+closure_() 852
+PRED (collectPredicates=True) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[7 $])
 closure((35,2,[7 $]))
+closure_() 853
 closure((37,2,[7 $]))
-PRED (collectPredicates=true) 7>=_p, ctx dependent=true
+closure_() 854
+PRED (collectPredicates=True) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[7 $])
 closure((38,2,[7 $]))
+closure_() 855
 closure((44,2,[7 $]))
-PRED (collectPredicates=true) 6>=_p, ctx dependent=true
+closure_() 856
+PRED (collectPredicates=True) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[7 $])
 closure((45,2,[7 $]))
+closure_() 857
 closure((54,2,[7 $]))
+closure_() 858
 closure((3,2,[7 $]))
 closure((7,2,[$]))
+closure_() 859
 reportAttemptingFullContext decision=4:[(10,1,[52 $]), (14,1,[52 $]), (16,1,[52 $]), (56,1,[24 52 $]), (22,1,[52 $]), (10,2,[52 $],up=8), (14,2,[52 $],up=8), (16,2,[52 $],up=8), (56,2,[24 52 $],up=8), (22,2,[52 $],up=8)],conflictingAlts={1, 2},dipsIntoOuterContext, input=EQ
 execATNWithFullContext [(26,1,[52 7 $]), (26,2,[7 $]), (29,2,[7 $]), (32,2,[7 $]), (35,2,[7 $]), (38,2,[7 $]), (45,2,[7 $]), (7,2,[$])]
 in computeReachSet, starting closure: [(26,1,[52 7 $]), (26,2,[7 $]), (29,2,[7 $]), (32,2,[7 $]), (35,2,[7 $]), (38,2,[7 $]), (45,2,[7 $]), (7,2,[$])]
@@ -2129,34 +2987,56 @@ testing EQ<13> at (38,2,[7 $])
 testing EQ<13> at (45,2,[7 $])
 testing EQ<13> at (7,2,[$])
 closure((27,1,[52 7 $]))
+closure_() 860
 CALL rule expression, ctx=52 7 $
 closure((2,1,[52 52 7 $]))
+closure_() 861
 closure((23,1,[52 52 7 $]))
+closure_() 862
 closure((9,1,[52 52 7 $]))
+closure_() 863
 ACTION edge 1:-1
 closure((10,1,[52 52 7 $]))
+closure_() 864
 closure((14,1,[52 52 7 $]))
+closure_() 865
 closure((16,1,[52 52 7 $]))
+closure_() 866
 closure((21,1,[52 52 7 $]))
+closure_() 867
 CALL rule boolean, ctx=52 52 7 $
 closure((4,1,[24 52 52 7 $]))
+closure_() 868
 closure((56,1,[24 52 52 7 $]))
+closure_() 869
 closure((22,1,[52 52 7 $]))
+closure_() 870
 closure((27,2,[7 $]))
+closure_() 871
 CALL rule expression, ctx=7 $
 closure((2,2,[52 7 $]))
+closure_() 872
 closure((23,2,[52 7 $]))
+closure_() 873
 closure((9,2,[52 7 $]))
+closure_() 874
 ACTION edge 1:-1
 closure((10,2,[52 7 $]))
+closure_() 875
 closure((14,2,[52 7 $]))
+closure_() 876
 closure((16,2,[52 7 $]))
+closure_() 877
 closure((21,2,[52 7 $]))
+closure_() 878
 CALL rule boolean, ctx=52 7 $
 closure((4,2,[24 52 7 $]))
+closure_() 879
 closure((56,2,[24 52 7 $]))
+closure_() 880
 closure((22,2,[52 7 $]))
-LL altSubSets=[{2}, {2}, {1}, {2}, {1}, {2}, {1}, {1}, {1}, {2}], predict=0, resolvesToJustOneViableAlt=0
+closure_() 881
+LL altSubSets=System.Collections.Generic.Dictionary`2+ValueCollection[Antlr4.Runtime.Atn.ATNConfig,Antlr4.Runtime.Sharpen.BitSet], predict=0, ResolvesToJustOneViableAlt=0
 in computeReachSet, starting closure: [(10,1,[52 52 7 $]), (14,1,[52 52 7 $]), (16,1,[52 52 7 $]), (56,1,[24 52 52 7 $]), (22,1,[52 52 7 $]), (10,2,[52 7 $]), (14,2,[52 7 $]), (16,2,[52 7 $]), (56,2,[24 52 7 $]), (22,2,[52 7 $])]
 testing DECIMAL<17> at (10,1,[52 52 7 $])
 testing DECIMAL<17> at (14,1,[52 52 7 $])
@@ -2169,94 +3049,140 @@ testing DECIMAL<17> at (16,2,[52 7 $])
 testing DECIMAL<17> at (56,2,[24 52 7 $])
 testing DECIMAL<17> at (22,2,[52 7 $])
 closure((24,1,[52 52 7 $]))
+closure_() 882
 closure((53,1,[52 52 7 $]))
+closure_() 883
 closure((54,1,[52 52 7 $]))
+closure_() 884
 closure((3,1,[52 52 7 $]))
 closure((52,1,[52 7 $]))
+closure_() 885
 closure((55,1,[52 7 $]))
+closure_() 886
 closure((53,1,[52 7 $]))
+closure_() 887
 closure((54,1,[52 7 $]))
+closure_() 888
 closure((3,1,[52 7 $]))
 closure((52,1,[7 $]))
+closure_() 889
 closure((55,1,[7 $]))
+closure_() 890
 closure((53,1,[7 $]))
+closure_() 891
 closure((51,1,[7 $]))
+closure_() 892
 closure((25,1,[7 $]))
-PRED (collectPredicates=false) 9>=_p, ctx dependent=true
+closure_() 893
+PRED (collectPredicates=False) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,1,[7 $])
 closure((26,1,[7 $]))
+closure_() 894
 closure((28,1,[7 $]))
-PRED (collectPredicates=false) 8>=_p, ctx dependent=true
+closure_() 895
+PRED (collectPredicates=False) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,1,[7 $])
 closure((29,1,[7 $]))
+closure_() 896
 closure((31,1,[7 $]))
-PRED (collectPredicates=false) 4>=_p, ctx dependent=true
+closure_() 897
+PRED (collectPredicates=False) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,1,[7 $])
 closure((32,1,[7 $]))
+closure_() 898
 closure((34,1,[7 $]))
-PRED (collectPredicates=false) 3>=_p, ctx dependent=true
+closure_() 899
+PRED (collectPredicates=False) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,1,[7 $])
 closure((35,1,[7 $]))
+closure_() 900
 closure((37,1,[7 $]))
-PRED (collectPredicates=false) 7>=_p, ctx dependent=true
+closure_() 901
+PRED (collectPredicates=False) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,1,[7 $])
 closure((38,1,[7 $]))
+closure_() 902
 closure((44,1,[7 $]))
-PRED (collectPredicates=false) 6>=_p, ctx dependent=true
+closure_() 903
+PRED (collectPredicates=False) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,1,[7 $])
 closure((45,1,[7 $]))
+closure_() 904
 closure((54,1,[7 $]))
+closure_() 905
 closure((3,1,[7 $]))
 closure((7,1,[$]))
+closure_() 906
 closure((24,2,[52 7 $]))
+closure_() 907
 closure((53,2,[52 7 $]))
+closure_() 908
 closure((54,2,[52 7 $]))
+closure_() 909
 closure((3,2,[52 7 $]))
 closure((52,2,[7 $]))
+closure_() 910
 closure((55,2,[7 $]))
+closure_() 911
 closure((53,2,[7 $]))
+closure_() 912
 closure((51,2,[7 $]))
+closure_() 913
 closure((25,2,[7 $]))
-PRED (collectPredicates=false) 9>=_p, ctx dependent=true
+closure_() 914
+PRED (collectPredicates=False) 9>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(26,2,[7 $])
 closure((26,2,[7 $]))
+closure_() 915
 closure((28,2,[7 $]))
-PRED (collectPredicates=false) 8>=_p, ctx dependent=true
+closure_() 916
+PRED (collectPredicates=False) 8>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(29,2,[7 $])
 closure((29,2,[7 $]))
+closure_() 917
 closure((31,2,[7 $]))
-PRED (collectPredicates=false) 4>=_p, ctx dependent=true
+closure_() 918
+PRED (collectPredicates=False) 4>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(32,2,[7 $])
 closure((32,2,[7 $]))
+closure_() 919
 closure((34,2,[7 $]))
-PRED (collectPredicates=false) 3>=_p, ctx dependent=true
+closure_() 920
+PRED (collectPredicates=False) 3>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(35,2,[7 $])
 closure((35,2,[7 $]))
+closure_() 921
 closure((37,2,[7 $]))
-PRED (collectPredicates=false) 7>=_p, ctx dependent=true
+closure_() 922
+PRED (collectPredicates=False) 7>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(38,2,[7 $])
 closure((38,2,[7 $]))
+closure_() 923
 closure((44,2,[7 $]))
-PRED (collectPredicates=false) 6>=_p, ctx dependent=true
+closure_() 924
+PRED (collectPredicates=False) 6>=_p, ctx dependent=true
 context surrounding pred is [expression, expression, parse]
 config from pred transition=(45,2,[7 $])
 closure((45,2,[7 $]))
+closure_() 925
 closure((54,2,[7 $]))
+closure_() 926
 closure((3,2,[7 $]))
 closure((7,2,[$]))
-LL altSubSets=[{1, 2}, {1, 2}, {1, 2}, {1, 2}, {1, 2}, {1, 2}, {1, 2}], predict=0, resolvesToJustOneViableAlt=1
-reportAmbiguity {1, 2}:[(26,1,[7 $]), (29,1,[7 $]), (32,1,[7 $]), (35,1,[7 $]), (38,1,[7 $]), (45,1,[7 $]), (7,1,[$]), (26,2,[7 $]), (29,2,[7 $]), (32,2,[7 $]), (35,2,[7 $]), (38,2,[7 $]), (45,2,[7 $]), (7,2,[$])], input=EQ2
+closure_() 927
+LL altSubSets=System.Collections.Generic.Dictionary`2+ValueCollection[Antlr4.Runtime.Atn.ATNConfig,Antlr4.Runtime.Sharpen.BitSet], predict=0, ResolvesToJustOneViableAlt=1
+ReportAmbiguity {1, 2}:[(26,1,[7 $]), (29,1,[7 $]), (32,1,[7 $]), (35,1,[7 $]), (38,1,[7 $]), (45,1,[7 $]), (7,1,[$]), (26,2,[7 $]), (29,2,[7 $]), (32,2,[7 $]), (35,2,[7 $]), (38,2,[7 $]), (45,2,[7 $]), (7,2,[$])], input=EQ2
 DFA after predictATN: s0-OR->:s4^=>1
 s0-EQ->:s1^=>1
 s2-OR->:s3=>2
@@ -2265,8 +3191,8 @@ s5-EQ->:s6^=>1
 
 adaptivePredict decision 3 exec LA(1)==EQ<13> line 4:2
 execATN decision 3 exec LA(1)==EQ<13> line 4:2
-s0 = 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=true
-eval pred ({9>=prec}?, 1)=true
+s0 = 0:[(26,1,[$],{9>=prec}?), (29,2,[$],{8>=prec}?), (32,3,[$],{4>=prec}?), (35,4,[$],{3>=prec}?), (38,5,[$],{7>=prec}?), (45,6,[$],{6>=prec}?)],hasSemanticContext=True
+eval pred ({9>=prec}?, 1)=True
 PREDICT 1
 DFA after predictATN: s0-OR->:s2=>[({8>=prec}?, 2)]
 s0-EQ->:s1=>[({9>=prec}?, 1)]
@@ -2287,9 +3213,11 @@ testing EOF at (19,2,[$],up=2)
 testing EOF at (40,2,[$],up=3)
 testing EOF at (47,2,[$],up=7)
 closure((8,2,[$],up=1))
+closure_() 928
 closure((1,2,[$],up=1))
 FALLING off rule parse
-SLL altSubSets=[{2}], configs=[(1,2,[$],up=1)],dipsIntoOuterContext, predict=2, allSubsetsConflict=false, conflictingAlts={2}
+closure_() 929
+SLL altSubSets=[{2}], configs=[(1,2,[$],up=1)],dipsIntoOuterContext, predict=2, allSubsetsConflict=False, conflictingAlts={2}
 EDGE 2:[(7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext -> -1:[(1,2,[$],up=1)],uniqueAlt=2,dipsIntoOuterContext=>2 upon EOF
 adding new DFA state: 7:[(1,2,[$],up=1)],uniqueAlt=2,dipsIntoOuterContext=>2
 DFA=
@@ -2324,9 +3252,11 @@ testing EOF at (19,2,[$],up=2)
 testing EOF at (40,2,[$],up=3)
 testing EOF at (47,2,[$],up=7)
 closure((8,2,[$],up=1))
+closure_() 930
 closure((1,2,[$],up=1))
 FALLING off rule parse
-SLL altSubSets=[{2}], configs=[(1,2,[$],up=1)],dipsIntoOuterContext, predict=2, allSubsetsConflict=false, conflictingAlts={2}
+closure_() 931
+SLL altSubSets=[{2}], configs=[(1,2,[$],up=1)],dipsIntoOuterContext, predict=2, allSubsetsConflict=False, conflictingAlts={2}
 EDGE 5:[(26,1,[$]), (7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext -> -1:[(1,2,[$],up=1)],uniqueAlt=2,dipsIntoOuterContext=>2 upon EOF
 DFA=
 s0-OR->:s4^=>1
@@ -2367,9 +3297,11 @@ testing EOF at (19,2,[$],up=2)
 testing EOF at (40,2,[$],up=3)
 testing EOF at (47,2,[$],up=7)
 closure((8,2,[$],up=1))
+closure_() 932
 closure((1,2,[$],up=1))
 FALLING off rule parse
-SLL altSubSets=[{2}], configs=[(1,2,[$],up=1)],dipsIntoOuterContext, predict=2, allSubsetsConflict=false, conflictingAlts={2}
+closure_() 933
+SLL altSubSets=[{2}], configs=[(1,2,[$],up=1)],dipsIntoOuterContext, predict=2, allSubsetsConflict=False, conflictingAlts={2}
 EDGE 0:[(26,1,[$]), (29,1,[$]), (32,1,[$]), (35,1,[$]), (38,1,[$]), (45,1,[$]), (7,2,[$],up=1), (12,2,[$],up=1), (26,2,[$],up=8), (29,2,[$],up=8), (32,2,[$],up=8), (35,2,[$],up=8), (38,2,[$],up=8), (45,2,[$],up=8), (19,2,[$],up=2), (40,2,[$],up=3), (47,2,[$],up=7)],dipsIntoOuterContext -> -1:[(1,2,[$],up=1)],uniqueAlt=2,dipsIntoOuterContext=>2 upon EOF
 DFA=
 s0-EOF->:s7=>2
@@ -2390,5 +3322,3 @@ s5-EOF->:s7=>2
 s5-OR->:s3=>2
 s5-EQ->:s6^=>1
 
-Time: 0.058
-Parse succeeded.

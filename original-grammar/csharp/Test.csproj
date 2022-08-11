@@ -1,5 +1,5 @@
 <!-- Template generated code from trgen 0.16.6 -->
-<Project Sdk="Microsoft.NET.Sdk" >
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <OutputType>Exe</OutputType>
@@ -7,17 +7,18 @@
   <ItemGroup>
    <Antlr4 Include="SimpleBoolean.g4">
 <Package></Package>
+<GAtn>true</GAtn>
 <!-- AntlrRuntime>C:/Users/Kenne/Downloads/antlr4-4.10.1-complete.jar</AntlrRuntime -->
 </Antlr4>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Antlr4.Runtime.Standard" Version ="4.10.1" />
-    <PackageReference Include="Antlr4BuildTasks" Version = "10.3" PrivateAssets="all" />
+    <PackageReference Include="Antlr4.Runtime.Standard" Version="4.10.1" />
+    <PackageReference Include="Antlr4BuildTasks" Version="10.3" PrivateAssets="all" />
   </ItemGroup>
   <PropertyGroup>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'" >
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <NoWarn>1701;1702;3021</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -46,11 +47,11 @@ for %%G in (..\examples\*) do (
 EXIT %ERR%
 ]]></MyTester>
   </PropertyGroup>
-  <Target Name="Test" >
+  <Target Name="Test">
     <Message Text="testing" />
-    <Exec Command="$(MyTester)" >
-       <Output TaskParameter="ExitCode" PropertyName ="ErrorCode" />
+    <Exec Command="$(MyTester)">
+       <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
     </Exec>
-    <Message Importance="high" Text="$(ErrorCode)"/>
+    <Message Importance="high" Text="$(ErrorCode)" />
   </Target>
 </Project>
