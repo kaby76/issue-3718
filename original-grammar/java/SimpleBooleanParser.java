@@ -443,7 +443,6 @@ public class SimpleBooleanParser extends Parser {
 						((ComparatorExpressionContext)_localctx).right = expression(10);
 						}
 						break;
-
 					case 2:
 						{
 						_localctx = new BinaryExpressionContext(new ExpressionContext(_parentctx, _parentState));
@@ -457,7 +456,6 @@ public class SimpleBooleanParser extends Parser {
 						((BinaryExpressionContext)_localctx).right = expression(9);
 						}
 						break;
-
 					case 3:
 						{
 						_localctx = new CalcExpressionContext(new ExpressionContext(_parentctx, _parentState));
@@ -480,7 +478,6 @@ public class SimpleBooleanParser extends Parser {
 						((CalcExpressionContext)_localctx).right = expression(5);
 						}
 						break;
-
 					case 4:
 						{
 						_localctx = new CalcExpressionContext(new ExpressionContext(_parentctx, _parentState));
@@ -503,7 +500,6 @@ public class SimpleBooleanParser extends Parser {
 						((CalcExpressionContext)_localctx).right = expression(4);
 						}
 						break;
-
 					case 5:
 						{
 						_localctx = new DeprecatedConditionalExpressionContext(new ExpressionContext(_parentctx, _parentState));
@@ -529,7 +525,6 @@ public class SimpleBooleanParser extends Parser {
 						}
 						}
 						break;
-
 					case 6:
 						{
 						_localctx = new ConditionalExpressionContext(new ExpressionContext(_parentctx, _parentState));
@@ -731,19 +726,14 @@ public class SimpleBooleanParser extends Parser {
 		switch (predIndex) {
 		case 0:
 			return precpred(_ctx, 9);
-
 		case 1:
 			return precpred(_ctx, 8);
-
 		case 2:
 			return precpred(_ctx, 4);
-
 		case 3:
 			return precpred(_ctx, 3);
-
 		case 4:
 			return precpred(_ctx, 7);
-
 		case 5:
 			return precpred(_ctx, 6);
 		}
