@@ -10,7 +10,7 @@
             "request": "launch",
             "mode": "debug",
             "program": "${file}",
-            "args":["-file", "c:\\msys64\\home\\Kenne\\tem\\issue-3718\\p5.txt"]
+            "args":["-file", "c:\\msys64\\home\\Kenne\\tem\\issue-3718\\p15.txt"]
         }
 
     ]

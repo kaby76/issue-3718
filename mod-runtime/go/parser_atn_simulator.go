@@ -397,15 +397,7 @@ func (p *ParserATNSimulator) execATNWithFullContext(dfa *DFA, D *DFAState, s0 AT
 	predictedAlt := -1
 
 	for { // for more work
-		if ParserATNSimulatorDebug {
-			fmt.Print("Previous ")
-			fmt.Println(previous.String())
-		}
 		reach = p.computeReachSet(previous, t, fullCtx)
-		if ParserATNSimulatorDebug {
-			fmt.Print("Reach ")
-			fmt.Println(reach.String())
-		}
 		if reach == nil {
 			// if any configs in previous dipped into outer context, that
 			// means that input up to t actually finished entry rule
@@ -427,14 +419,10 @@ func (p *ParserATNSimulator) execATNWithFullContext(dfa *DFA, D *DFAState, s0 AT
 		}
 		altSubSets := PredictionModegetConflictingAltSubsets(reach)
 		if ParserATNSimulatorDebug {
-			fmt.Println(reach.String())
 			fmt.Println("LL altSubSets=" + fmt.Sprint(altSubSets) + ", predict=" +
 				strconv.Itoa(PredictionModegetUniqueAlt(altSubSets)) + ", resolvesToJustOneViableAlt=" +
 				fmt.Sprint(PredictionModeresolvesToJustOneViableAlt(altSubSets)))
 		}
-//		xx := p.getUniqueAlt(reach)
-//		fmt.Print("d = ")
-//		fmt.Println(xx)
 		reach.SetUniqueAlt(p.getUniqueAlt(reach))
 		// unique prediction?
 		if reach.GetUniqueAlt() != ATNInvalidAltNumber {
@@ -443,8 +431,6 @@ func (p *ParserATNSimulator) execATNWithFullContext(dfa *DFA, D *DFAState, s0 AT
 		}
 		if p.predictionMode != PredictionModeLLExactAmbigDetection {
 			predictedAlt = PredictionModeresolvesToJustOneViableAlt(altSubSets)
-//			fmt.Print("a ")
-//			fmt.Println(predictedAlt)
 			if predictedAlt != ATNInvalidAltNumber {
 				break
 			}
@@ -464,8 +450,6 @@ func (p *ParserATNSimulator) execATNWithFullContext(dfa *DFA, D *DFAState, s0 AT
 		if t != TokenEOF {
 			input.Consume()
 			t = input.LA(1)
-//			fmt.Print("e ")
-//			fmt.Println(t)
 		}
 	}
 	// If the configuration set uniquely predicts an alternative,
@@ -1055,9 +1039,6 @@ func (p *ParserATNSimulator) closureWork(config ATNConfig, configs ATNConfigSet,
 		// make sure to not return here, because EOF transitions can act as
 		// both epsilon transitions and non-epsilon transitions.
 	}
-	if state.GetStateNumber() == 59 {
-//		fmt.Println("hi")
-	}
 	for i := 0; i < len(state.GetTransitions()); i++ {
 		if i == 0 && p.canDropLoopEntryEdgeInLeftRecursiveRule(config) {
 			continue
@@ -1123,7 +1104,7 @@ func (p *ParserATNSimulator) canDropLoopEntryEdgeInLeftRecursiveRule(config ATNC
 	// left-recursion elimination. For efficiency, also check if
 	// the context has an empty stack case. If so, it would mean
 	// global FOLLOW so we can't perform optimization
-	if startLoop, ok := _p.(StarLoopEntryState); !ok || !startLoop.precedenceRuleDecision || config.GetContext().isEmpty() || config.GetContext().hasEmptyPath() {
+	if startLoop, ok := _p.(*StarLoopEntryState); !ok || !startLoop.precedenceRuleDecision || config.GetContext().isEmpty() || config.GetContext().hasEmptyPath() {
 		return false
 	}
 
@@ -1137,7 +1118,8 @@ func (p *ParserATNSimulator) canDropLoopEntryEdgeInLeftRecursiveRule(config ATNC
 		}
 	}
 
-	decisionStartState := _p.(BlockStartState).GetTransitions()[0].getTarget().(BlockStartState)
+	decisionStartState := _p.GetTransitions()[0].getTarget().(BlockStartState)
+//	decisionStartState := _p.(BlockStartState).GetTransitions()[0].getTarget().(BlockStartState)
 	blockEndStateNum := decisionStartState.getEndState().stateNumber
 	blockEndState := p.atn.states[blockEndStateNum].(*BlockEndState)
 
@@ -1510,7 +1492,7 @@ func (p *ParserATNSimulator) addDFAState(dfa *DFA, d *DFAState) *DFAState {
 	if d == ATNSimulatorError {
 		return d
 	}
-	//	hash := d.hash()
+//	hash := d.hash()
 	existing, ok := dfa.getState(d)
 	if ok {
 		return existing

@@ -1,5 +1,6 @@
 # Template generated code from trgen 0.16.6
-JAR = C:/Users/Kenne/.m2/antlr4-4.10.1-complete.jar
+JAR = C:/Users/Kenne/Documents/GitHub/antlr4-upstream/tool/target/antlr4-4.10.2-SNAPSHOT-complete.jar
+# JAR = C:/Users/Kenne/.m2/antlr4-4.10.1-complete.jar
 CLASSPATH = $(JAR)\;.
 .SUFFIXES: .g4 .java .class
 .java.class:

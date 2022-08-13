@@ -4,10 +4,6 @@
 
 package antlr
 
-import (
-	"fmt"
-)
-
 // This enumeration defines the prediction modes available in ANTLR 4 along with
 // utility methods for analyzing configuration sets for conflicts and/or
 // ambiguities.
@@ -444,12 +440,10 @@ func PredictionModeallSubsetsEqual(altsets []*BitSet) bool {
 		if first == nil {
 			first = alts
 		} else if alts != first {
-			fmt.Println("c = false")
 			return false
 		}
 	}
 
-	fmt.Println("c = true")
 	return true
 }
 

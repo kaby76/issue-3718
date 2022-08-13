@@ -657,24 +657,14 @@ func (p *BaseParser) GetRuleInvocationStack(c ParserRuleContext) []string {
 		c = p.ctx
 	}
 	stack := make([]string, 0)
-	first := true
 	for c != nil {
 		// compute what follows who invoked us
 		ruleIndex := c.GetRuleIndex()
 		if ruleIndex < 0 {
-			if first {
-				stack = append(stack, "n/a")
-			} else {
-				stack = append(stack, ", n/a")
-			}
+			stack = append(stack, "n/a")
 		} else {
-			if (first) {
-				stack = append(stack, p.GetRuleNames()[ruleIndex])
-			} else {
-				stack = append(stack, ", " + p.GetRuleNames()[ruleIndex])
-			}
+			stack = append(stack, p.GetRuleNames()[ruleIndex])
 		}
-		first = false
 
 		vp := c.GetParent()
 
