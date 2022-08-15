@@ -1,0 +1,10 @@
+# Generated code from trgen 0.16.6
+GENERATED = SimpleBooleanParser.cs SimpleBooleanLexer.cs 
+build:
+	dotnet restore
+	dotnet build
+run:
+	dotnet run $(RUNARGS)
+clean:
+	rm -rf bin obj
+	dotnet clean

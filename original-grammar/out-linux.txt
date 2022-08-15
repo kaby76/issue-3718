@@ -1,0 +1,106 @@
+/mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar/csharp /mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar
+rm -rf bin obj
+dotnet clean
+Microsoft (R) Build Engine version 17.1.1+a02f73656 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 08/15/2022 05:26:03.
+     1>Project "/mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar/csharp/Test.sln" on node 1 (Clean target(s)).
+     1>ValidateSolutionConfiguration:
+         Building solution configuration "Debug|Any CPU".
+     1>Project "/mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar/csharp/Test.sln" (1) is building "/mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar/csharp/Test.csproj" (2) on node 1 (Clean target(s)).
+     2>CoreClean:
+         Creating directory "obj/Debug/net6.0/".
+     2>Done Building Project "/mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar/csharp/Test.csproj" (Clean target(s)).
+     1>Done Building Project "/mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar/csharp/Test.sln" (Clean target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.70
+dotnet restore
+  Determining projects to restore...
+  Restored /mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar/csharp/Test.csproj (in 319 ms).
+dotnet build
+Microsoft (R) Build Engine version 17.1.1+a02f73656 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Test -> /mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar/csharp/bin/Debug/net6.0/Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.35
+dotnet run -file ../../p15.txt
+Time: 00:00:00.0557982
+Parse succeeded.
+/mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar
+/mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar/java /mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar
+rm -f *.class
+rm -f *.interp
+rm -f *.tokens
+rm -f SimpleBooleanParser.java SimpleBooleanLexer.java 
+java -jar /home/ken/.m2/antlr4-4.10.1-complete.jar -encoding utf-8  SimpleBoolean.g4
+javac -cp /home/ken/.m2/antlr4-4.10.1-complete.jar\:. SimpleBooleanParser.java
+javac -cp /home/ken/.m2/antlr4-4.10.1-complete.jar\:. SimpleBooleanLexer.java
+javac -cp /home/ken/.m2/antlr4-4.10.1-complete.jar\:. Program.java
+java -classpath /home/ken/.m2/antlr4-4.10.1-complete.jar\:. Program -file ../../p15.txt
+Time: 0.021
+Parse succeeded.
+/mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar
+/mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar/go /mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar
+rm -f Text.exe
+rm -f Test
+rm -f *.tokens *.interp
+rm -f parser/simpleboolean_parser.go parser/simpleboolean_lexer.go 
+go env
+GO111MODULE=""
+GOARCH="amd64"
+GOBIN=""
+GOCACHE="/home/ken/.cache/go-build"
+GOENV="/home/ken/.config/go/env"
+GOEXE=""
+GOEXPERIMENT=""
+GOFLAGS=""
+GOHOSTARCH="amd64"
+GOHOSTOS="linux"
+GOINSECURE=""
+GOMODCACHE="/home/ken/go/pkg/mod"
+GONOPROXY=""
+GONOSUMDB=""
+GOOS="linux"
+GOPATH="/home/ken/go"
+GOPRIVATE=""
+GOPROXY="https://proxy.golang.org,direct"
+GOROOT="/usr/local/go"
+GOSUMDB="sum.golang.org"
+GOTMPDIR=""
+GOTOOLDIR="/usr/local/go/pkg/tool/linux_amd64"
+GOVCS=""
+GOVERSION="go1.17.2"
+GCCGO="gccgo"
+AR="ar"
+CC="gcc"
+CXX="g++"
+CGO_ENABLED="1"
+GOMOD="/mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar/go/go.mod"
+CGO_CFLAGS="-g -O2"
+CGO_CPPFLAGS=""
+CGO_CXXFLAGS="-g -O2"
+CGO_FFLAGS="-g -O2"
+CGO_LDFLAGS="-g -O2"
+PKG_CONFIG="pkg-config"
+GOGCCFLAGS="-fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build3996308800=/tmp/go-build -gno-record-gcc-switches"
+go version
+go version go1.17.2 linux/amd64
+export GO111MODULE=on; go get github.com/antlr/antlr4/runtime/Go/antlr@dev
+java -jar /home/ken/.m2/antlr4-4.10.1-complete.jar -encoding utf-8 -Dlanguage=Go -lib parser -package parser  parser/SimpleBoolean.g4
+export GO111MODULE=on; go build Test.go
+export GO111MODULE=on; ./Test -file ../../p15.txt
+Time: 36.150 s
+Parse succeeded.
+/mnt/c/msys64/home/Kenne/tem/issue-3718/original-grammar

@@ -1,5 +1,25 @@
 #!/bin/bash
 
-pushd csharp; make clean; make; ./bin/Debug/net6.0/Test.exe -file ../../p15.txt 2>&1 > out.txt; dos2unix out.txt; popd
-pushd java; make clean; make; make run RUNARGS="-file ../../p15.txt" 2>&1 > out.txt ; dos2unix out.txt; popd
-pushd go; rm -f Test.exe; make clean; make; trwdog -t 4 ./Test.exe -file ../../p15.txt 2>&1 > out.txt ; dos2unix out.txt; popd
+unameOut="$(uname -s)"
+case "${unameOut}" in
+    Linux*)     machine=Linux;;
+    Darwin*)    machine=Mac;;
+    CYGWIN*)    machine=Cygwin;;
+    MINGW*)     machine=MinGw;;
+    *)          machine="UNKNOWN:${unameOut}"
+esac
+if [ "$machine" == "Linux" ]
+then
+	makefiles="makefile.linux"
+else
+	makefiles="makefile.win"
+fi
+
+for i in csharp java go
+do
+	pushd $i
+	make -f "$makefiles" clean
+	make -f "$makefiles" build
+	make -f "$makefiles" run RUNARGS="-file ../../p15.txt" 2>&1
+	popd
+done	

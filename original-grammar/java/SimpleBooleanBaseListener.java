@@ -22,7 +22,6 @@ public class SimpleBooleanBaseListener implements SimpleBooleanListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitParse(SimpleBooleanParser.ParseContext ctx) { }
-
 	/**
 	 * {@inheritDoc}
 	 *
@@ -35,7 +34,6 @@ public class SimpleBooleanBaseListener implements SimpleBooleanListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitBinaryExpression(SimpleBooleanParser.BinaryExpressionContext ctx) { }
-
 	/**
 	 * {@inheritDoc}
 	 *
@@ -48,7 +46,6 @@ public class SimpleBooleanBaseListener implements SimpleBooleanListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitDecimalExpression(SimpleBooleanParser.DecimalExpressionContext ctx) { }
-
 	/**
 	 * {@inheritDoc}
 	 *
@@ -61,7 +58,6 @@ public class SimpleBooleanBaseListener implements SimpleBooleanListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitBoolExpression(SimpleBooleanParser.BoolExpressionContext ctx) { }
-
 	/**
 	 * {@inheritDoc}
 	 *
@@ -74,7 +70,6 @@ public class SimpleBooleanBaseListener implements SimpleBooleanListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitConditionalExpression(SimpleBooleanParser.ConditionalExpressionContext ctx) { }
-
 	/**
 	 * {@inheritDoc}
 	 *
@@ -87,7 +82,6 @@ public class SimpleBooleanBaseListener implements SimpleBooleanListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitCalcExpression(SimpleBooleanParser.CalcExpressionContext ctx) { }
-
 	/**
 	 * {@inheritDoc}
 	 *
@@ -100,7 +94,6 @@ public class SimpleBooleanBaseListener implements SimpleBooleanListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitSqrtExpression(SimpleBooleanParser.SqrtExpressionContext ctx) { }
-
 	/**
 	 * {@inheritDoc}
 	 *
@@ -113,7 +106,6 @@ public class SimpleBooleanBaseListener implements SimpleBooleanListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitNotExpression(SimpleBooleanParser.NotExpressionContext ctx) { }
-
 	/**
 	 * {@inheritDoc}
 	 *
@@ -126,7 +118,6 @@ public class SimpleBooleanBaseListener implements SimpleBooleanListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitParenExpression(SimpleBooleanParser.ParenExpressionContext ctx) { }
-
 	/**
 	 * {@inheritDoc}
 	 *
@@ -139,7 +130,6 @@ public class SimpleBooleanBaseListener implements SimpleBooleanListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitDeprecatedConditionalExpression(SimpleBooleanParser.DeprecatedConditionalExpressionContext ctx) { }
-
 	/**
 	 * {@inheritDoc}
 	 *
@@ -152,7 +142,6 @@ public class SimpleBooleanBaseListener implements SimpleBooleanListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitComparatorExpression(SimpleBooleanParser.ComparatorExpressionContext ctx) { }
-
 	/**
 	 * {@inheritDoc}
 	 *
@@ -165,7 +154,6 @@ public class SimpleBooleanBaseListener implements SimpleBooleanListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitComparator(SimpleBooleanParser.ComparatorContext ctx) { }
-
 	/**
 	 * {@inheritDoc}
 	 *
@@ -178,7 +166,6 @@ public class SimpleBooleanBaseListener implements SimpleBooleanListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitBinary(SimpleBooleanParser.BinaryContext ctx) { }
-
 	/**
 	 * {@inheritDoc}
 	 *

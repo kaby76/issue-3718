@@ -1,0 +1,102 @@
+~/tem/issue-3718/original-grammar/csharp ~/tem/issue-3718/original-grammar
+rm -rf bin obj
+dotnet clean
+Microsoft (R) Build Engine version 17.2.0+41abc5629 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/15/2022 5:28:22 AM.
+     1>Project "C:\msys64\home\Kenne\tem\issue-3718\original-grammar\csharp\Test.sln" on node 1 (Clean target(s)).
+     1>ValidateSolutionConfiguration:
+         Building solution configuration "Debug|Any CPU".
+     1>Project "C:\msys64\home\Kenne\tem\issue-3718\original-grammar\csharp\Test.sln" (1) is building "C:\msys64\home\Kenne\tem\issue-3718\original-grammar\csharp\Test.csproj" (2) on node 1 (Clean target(s)).
+     2>CoreClean:
+         Creating directory "obj\Debug\net6.0\".
+     2>Done Building Project "C:\msys64\home\Kenne\tem\issue-3718\original-grammar\csharp\Test.csproj" (Clean target(s)).
+     1>Done Building Project "C:\msys64\home\Kenne\tem\issue-3718\original-grammar\csharp\Test.sln" (Clean target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.52
+dotnet restore
+  Determining projects to restore...
+  Restored C:\msys64\home\Kenne\tem\issue-3718\original-grammar\csharp\Test.csproj (in 352 ms).
+dotnet build
+Microsoft (R) Build Engine version 17.2.0+41abc5629 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Test -> C:\msys64\home\Kenne\tem\issue-3718\original-grammar\csharp\bin\Debug\net6.0\Test.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.47
+dotnet run -file ../../p15.txt
+Time: 00:00:00.0532617
+Parse succeeded.
+~/tem/issue-3718/original-grammar
+~/tem/issue-3718/original-grammar/java ~/tem/issue-3718/original-grammar
+rm -f *.class
+rm -f *.interp
+rm -f *.tokens
+rm -f SimpleBooleanParser.java SimpleBooleanLexer.java 
+java -jar C:/Users/Kenne/.m2/antlr4-4.10.1-complete.jar -encoding utf-8  SimpleBoolean.g4
+javac -cp C:/Users/Kenne/.m2/antlr4-4.10.1-complete.jar\;. SimpleBooleanParser.java
+javac -cp C:/Users/Kenne/.m2/antlr4-4.10.1-complete.jar\;. SimpleBooleanLexer.java
+javac -cp C:/Users/Kenne/.m2/antlr4-4.10.1-complete.jar\;. Program.java
+java -classpath C:/Users/Kenne/.m2/antlr4-4.10.1-complete.jar\;. Program -file ../../p15.txt
+Time: 0.017
+Parse succeeded.
+~/tem/issue-3718/original-grammar
+~/tem/issue-3718/original-grammar/go ~/tem/issue-3718/original-grammar
+rm -f Test.exe
+rm -f *.tokens *.interp
+rm -f parser/simpleboolean_parser.go parser/simpleboolean_lexer.go 
+go env
+set GO111MODULE=on
+set GOARCH=amd64
+set GOBIN=
+set GOCACHE=C:\Users\Kenne\AppData\Local\go-build
+set GOENV=C:\Users\Kenne\AppData\Roaming\go\env
+set GOEXE=.exe
+set GOEXPERIMENT=
+set GOFLAGS=
+set GOHOSTARCH=amd64
+set GOHOSTOS=windows
+set GOINSECURE=
+set GOMODCACHE=C:\Users\kenne\go\pkg\mod
+set GONOPROXY=
+set GONOSUMDB=
+set GOOS=windows
+set GOPATH=C:\Users\kenne\go
+set GOPRIVATE=
+set GOPROXY=https://proxy.golang.org,direct
+set GOROOT=C:\Program Files\Go
+set GOSUMDB=sum.golang.org
+set GOTMPDIR=
+set GOTOOLDIR=C:\Program Files\Go\pkg\tool\windows_amd64
+set GOVCS=
+set GOVERSION=go1.17.2
+set GCCGO=gccgo
+set AR=ar
+set CC=gcc
+set CXX=g++
+set CGO_ENABLED=1
+set GOMOD=C:\msys64\home\Kenne\tem\issue-3718\original-grammar\go\go.mod
+set CGO_CFLAGS=-g -O2
+set CGO_CPPFLAGS=
+set CGO_CXXFLAGS=-g -O2
+set CGO_FFLAGS=-g -O2
+set CGO_LDFLAGS=-g -O2
+set PKG_CONFIG=pkg-config
+set GOGCCFLAGS=-m64 -mthreads -fmessage-length=0 -fdebug-prefix-map=C:\msys64\tmp\go-build46914526=/tmp/go-build -gno-record-gcc-switches
+go version
+go version go1.17.2 windows/amd64
+export GO111MODULE=on; go get github.com/antlr/antlr4/runtime/Go/antlr@dev
+java -jar C:/Users/Kenne/.m2/antlr4-4.10.1-complete.jar -encoding utf-8 -Dlanguage=Go -o parser -lib parser -package parser  parser/SimpleBoolean.g4
+export GO111MODULE=on; go build Test.go
+export GO111MODULE=on; ./Test.exe -file ../../p15.txt
