@@ -100,3 +100,6 @@ export GO111MODULE=on; go get github.com/antlr/antlr4/runtime/Go/antlr@dev
 java -jar C:/Users/Kenne/.m2/antlr4-4.10.1-complete.jar -encoding utf-8 -Dlanguage=Go -o parser -lib parser -package parser  parser/SimpleBoolean.g4
 export GO111MODULE=on; go build Test.go
 export GO111MODULE=on; ./Test.exe -file ../../p15.txt
+Time: 38.275 s
+Parse succeeded.
+~/tem/issue-3718/original-grammar
